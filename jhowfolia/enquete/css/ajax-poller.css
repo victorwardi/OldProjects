@@ -1,0 +1,73 @@
+	
+	.poller{	/* The poller box */
+	float:none;
+	width:99%;
+	height:180px;
+	padding:15px;
+	background-position: left top;
+	margin:0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	}
+	/* Poller title above radio buttons */
+	.pollerTitle{
+	margin-bottom:6px;
+	font-weight:bold;
+	color: #096FB7;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	/* Label for each radio button */
+	.pollerOption{
+	margin:2px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #096FB7;
+	}
+	/* Label for each option above graph - i.e. results */
+	.result_pollerOption{
+		margin:2px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #096FB7;
+	}
+	/* Title of poller - when ajax shows the results */
+	.result_pollerTitle{
+	margin-bottom:6px;
+	font-weight:bold;
+	color: #096FB7;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	/* Don't change this one, it is used to get the left and right image(the corner) positioned correctly */
+	.result_pollGraph img{
+		float:left;
+	}
+	/* The <div> tag where the percentage result is shown */
+	.result_pollGraph div{
+		float:left;
+		height:16px;
+		background-repeat:repeat-x;
+		color:#FFF;
+		font-size:10px;
+		line-height:16px;
+	}
+	/* Graph div - parent of both the corner images and the div displaying percentage votes */
+	.result_pollGraph{	
+		height:16px;
+	}
+	
+	/* Message when Ajax is working getting restults fromt the server */
+	.poller_waitMessage{
+		display:none;	
+	}	
+	
+	.result_totalVotes{
+	clear:both;
+	font-size:9px;
+	margin-top:10px;
+	font-style:italic;
+	font-family: Arial, Helvetica, sans-serif;
+	}

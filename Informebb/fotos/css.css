@@ -1,0 +1,29 @@
+/* CSS Document */
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #313639;
+}.borda_galeria {
+	border: 1px solid #FFFFFF;
+}
+.texto_galeria {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: lighter;
+	color: #FFFFFF;
+}
+.titulo {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #FFFFFF;
+}
+.titulo_coment {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #FFFFFF;
+}

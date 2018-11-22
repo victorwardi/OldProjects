@@ -1,0 +1,123 @@
+/* CSS Document */
+
+body{
+	font-size:12px;
+	color:#666666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+	margin:0;
+	background-repeat: repeat-y;
+	background-position: center center;
+	background-color: #FFFFFF;
+}
+
+a:link {
+	color: #333333;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #333333;
+}
+a:hover {
+	text-decoration: underline;
+	color: #666666;
+}
+a:active {
+	text-decoration: none;
+	color: #000000;
+}
+.txt_tabela {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+
+
+.linha_3px_menu {
+	border-top-width: 3px;
+	border-right-width: 3px;
+	border-bottom-width: 3px;
+	border-left-width: 3px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #3366CC;
+	border-right-color: #3366CC;
+	border-bottom-color: #3366CC;
+	border-left-color: #3366CC;
+	}
+.txt_menu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.txt_titulo_tabela {
+	font-size: 16px;
+	font-weight: bolder;
+	color: #333333;
+}
+#produtos td {
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+	color: #333333;
+	}
+	
+	.produtos_borda{
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+}
+#menu td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	background-color: #E9E9E9;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	padding: 10px;
+}
+#tabela_cordas {
+	border: 1px solid #CCCCCC;
+}
+#tabela_cordas td {
+	border: 1px solid #CCCCCC;
+}
+#desc {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	text-align: left;
+	width: 95%;
+	margin: auto;
+	font-weight: normal;
+	font-style: normal;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+}

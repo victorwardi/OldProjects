@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+legend {
+	background-color: #336699;
+	color: #FFFFFF;
+	padding: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+fieldset {
+	border: 1px solid #336699;
+	padding: 10px;
+}
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#tabela_itens {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #336699;
+	border-right-color: #336699;
+	border-bottom-color: #336699;
+	border-left-color: #336699;
+}
+
+#tabela_itens td{
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #336699;
+	border-right-color: #336699;
+	border-bottom-color: #336699;
+	border-left-color: #336699;
+	}
+-->
+</style>
+</head>
+
+<body>
+<table width="667" border="0" align="center" cellpadding="5" cellspacing="0">
+  <tr>
+    <td height="82" colspan="2"><h1 align="center">Logomarca da Empresa</h1></td>
+  </tr>
+  <tr>
+    <td width="19%"> Empresa:</td>
+    <td width="71%"><label>
+      <select name="select" id="select">
+        <option>Selecione a Empresa</option>
+        <option>Empresa A</option>
+        <option>Empresa B</option>
+        <option>Empresa C</option>
+        <option>Empresa D</option>
+      </select>
+    </label></td>
+  </tr>
+  <tr>
+    <td> Cliente:</td>
+    <td><select name="select2" id="select2">
+      <option>Selecione o Cliente</option>
+      <option>Telhado de Vidro ME</option>
+      <option>Areia Mole LTDA</option>
+      <option>Algodão Pesado LTDA</option>
+      <option>Água Seca LTDA</option>
+            </select></td>
+  </tr>
+  <tr>
+    <td colspan="2"><fieldset>
+    <legend>Dados do Cliente</legend>
+    <p>Algodão Pesado LTDA</p>
+    <p>Rua Menezes da Silva, 48 - Centro - Jariri - BA </p>
+    <p>CEP: 67898-999&nbsp;&nbsp; </p>
+    <p>CNPJ/CPF: 121.234.098/0001-98&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Inscrição Estadual: 80.223.876</p>
+    <p>Tel: 21 6567-9989&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fax: 21 6762-7676&nbsp;&nbsp;&nbsp; Cel: 21 6765-9898&nbsp;&nbsp; Responsável: João</p>
+    </fieldset>    </td>
+  </tr>
+  
+  
+  <tr>
+    <td>Transporte:</td>
+    <td><label>
+      <select name="select" id="select">
+        <option>Selecione o Transporte</option>
+        <option>CIF</option>
+        <option>Rapidez Transporte e Logística</option>
+        <option>Velocimax</option>
+        <option>Entrega Total</option>
+                  </select>
+    </label></td>
+  </tr>
+  <tr>
+    <td colspan="2"><fieldset>
+    <legend>Dados da Transportadora</legend>
+    <p>Rapidez Transporte e Logística<br />
+    </p>
+    <p>Telefone: 21 6565-9878&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contato: Joaquim</p>
+    </fieldset>    </td>
+  </tr>
+  <tr>
+    <td>Forma de Pagamento:</td>
+    <td><select name="select3" id="select3">
+      <option>Selecione</option>
+      <option>À Vista</option>
+      <option>28/42</option>
+      <option>30/45</option>
+      <option>30/60</option>
+      <option>28/42/56</option>
+                </select></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Adicionar item:</td>
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="1">
+        <tr>
+          <td width="53%"><label>
+            <select name="select4" id="select4">
+              <option selected="selected">Selecione o item</option>
+              <option>Resina e Endurecedor emb. 1,000kg</option>
+              <option>Resina e Endurecedor emb. 0,500kg</option>
+              <option>Resina e Endurecedor emb. 0,250kg</option>
+                                                            </select>
+          </label></td>
+          <td width="47%"><label>
+            <input type="submit" name="Adicionar" id="Adicionar" value="Adicionar" />
+          </label></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><table width="100%" border="0" cellpadding="5" cellspacing="0" id="tabela_itens">
+      <tr>
+        <td width="5%" align="left" valign="middle" bgcolor="#F4F4F4"><strong>Item</strong></td>
+        <td width="7%" align="left" valign="middle" bgcolor="#F4F4F4"><strong>Quant.</strong></td>
+        <td width="6%" align="left" valign="middle" bgcolor="#F4F4F4"><strong>Unid.</strong></td>
+        <td width="47%" align="left" valign="middle" bgcolor="#F4F4F4"><strong>Descrição</strong></td>
+        <td width="10%" align="left" valign="middle" bgcolor="#F4F4F4"><strong>V. Unit.</strong></td>
+        <td width="13%" align="left" valign="middle" bgcolor="#F4F4F4"><strong>V. total</strong></td>
+        <td width="12%" align="left" valign="middle" bgcolor="#F4F4F4">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" valign="middle">01</td>
+        <td align="left" valign="middle">09</td>
+        <td align="left" valign="middle">CNJ</td>
+        <td align="left" valign="middle">Resina e Endurecedor emb. 1,000kg</td>
+        <td align="left" valign="middle">30,00</td>
+        <td align="left" valign="middle">270,00</td>
+        <td align="left" valign="middle"><label>
+          <input type="submit" name="button" id="button" value="Excluir" />
+        </label></td>
+      </tr>
+      <tr>
+        <td align="left" valign="middle">02</td>
+        <td align="left" valign="middle">12</td>
+        <td align="left" valign="middle">CNJ</td>
+        <td align="left" valign="middle">Resina e Endurecedor emb. 0,500kg</td>
+        <td align="left" valign="middle">15,00</td>
+        <td align="left" valign="middle">180,00</td>
+        <td align="left" valign="middle"><input type="submit" name="button4" id="button4" value="Excluir" /></td>
+      </tr>
+      <tr>
+        <td align="left" valign="middle">03</td>
+        <td align="left" valign="middle">12</td>
+        <td align="left" valign="middle">CNJ</td>
+        <td align="left" valign="middle">Resina e Endurecedor emb. 0,250kg</td>
+        <td align="left" valign="middle">8,00</td>
+        <td align="left" valign="middle">96,00</td>
+        <td align="left" valign="middle"><input type="submit" name="button3" id="button3" value="Excluir" /></td>
+      </tr>
+      <tr>
+        <td colspan="3" align="left" valign="middle"><strong>Total</strong></td>
+        <td align="left" valign="middle">&nbsp;</td>
+        <td colspan="3" align="left" valign="middle"><strong>R$ 546,00</strong></td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="5">
+      <tr>
+        <td width="8%"><input type="submit" name="button2" id="button2" value="Salvar" /></td>
+        <td width="11%"><input type="submit" name="button5" id="button5" value="Visualizar" /></td>
+        <td width="9%"><input type="submit" name="button6" id="button6" value="Enviar" /></td>
+        <td width="12%"><input type="submit" name="button7" id="button7" value="Imprimir" /></td>
+        <td width="60%">&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>

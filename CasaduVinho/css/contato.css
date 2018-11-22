@@ -1,0 +1,65 @@
+/* Formulario */
+form {
+	width:350px;
+}
+.textbox {
+	border:1px solid #5C0726;
+	color:#6D1737;
+	width:400px;
+	padding:2px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: lighter;
+	background-color: #EFEFEF;
+}
+fieldset {
+	border: 1px none #5C594D;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+}
+legend {
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 3px;
+	border: 1px none #F4F4F4;
+	margin-bottom: 5px;
+	background-color: #34393C;
+}
+input, textarea, select { margin-bottom: 10px; }
+label {
+	display: block;
+	width: 300px;
+	float: left;
+	font-weight: bold;
+	margin-right: 5px;
+	color: #5D0628;
+	font-family: Arial, Helvetica, sans-serif;
+}
+label.nada {
+	border: 0;
+	margin-right: 1px;
+	display: block;
+	width: 70px;
+}
+#botao {
+	border:1px solid #500420;
+	color:#5B0625;
+	font-weight:bold;
+	font-size:12px;
+	padding:5px;
+	cursor: hand;
+	background-color: #EFEFEF;
+}
+.textbox2 {
+	border:1px solid #F3F8A6;
+	color:#333333;
+	width:200px;
+	padding:2px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: lighter;
+	height: auto;
+	background-color: #F3F8A6;
+}

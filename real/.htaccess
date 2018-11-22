@@ -1,0 +1,3 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule  ^galeria/([0-9]*)$ /galeria.php?id=$1

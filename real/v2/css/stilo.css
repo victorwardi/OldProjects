@@ -1,0 +1,90 @@
+/* CSS Document */
+
+
+body,td,th {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.texto_11px_preto {
+	font-size: 12px;
+	font-weight: lighter;
+	color: #000000;
+}
+.link_12px_preto_n {
+	font-size: 11px;
+	font-weight: bolder;
+	color: #000000;
+}
+
+body {
+	background-image: url(../img/fundo.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin-top: 85px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+/* menu */
+
+# menu {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #000000;
+}
+
+#menu a {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #000;
+	text-decoration: none;
+	}
+.borda_4pxcinza_escuto {
+	border: 4px solid #333333;
+}
+.titulo_galerias {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #000000;
+}
+
+
+#menu a:hover {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #666666;
+}
+.bora_2px {
+	border: 2px solid #333333;
+}
+
+.fonte_10px_preta  {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: lighter;
+	color: #333333;
+}
+.titulo_branco_16px {
+	font-size: 16px;
+	font-weight: bolder;
+	color: #FFFFFF;
+}
+.borda_destaque_8px {
+	border: 8px solid #333333;
+}

@@ -1,0 +1,86 @@
+BODY
+{
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 2px;
+    FONT-WEIGHT: lighter;
+    FONT-SIZE: 10px;
+    PADDING-BOTTOM: 3px;
+    MARGIN: 3px 2px;
+    COLOR: #000000;
+    PADDING-TOP: 3px;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+P
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10px;
+    TEXT-TRANSFORM: none;
+    COLOR: #000000;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    LIST-STYLE-TYPE: square;
+    FONT-VARIANT: normal;
+    TEXT-DECORATION: none
+}
+H1
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    TEXT-TRANSFORM: none;
+    COLOR: #006699;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-VARIANT: normal;
+    TEXT-DECORATION: none
+}
+INPUT
+{
+    BACKGROUND-COLOR: #f8f8ff
+}
+TEXTAREA
+{
+    BACKGROUND-COLOR: #f8f8ff
+}
+TABLE
+{
+    FONT-WEIGHT: lighter;
+    FONT-SIZE: 12pt;
+    TEXT-TRANSFORM: none;
+    COLOR: #000000;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Arial, Tahoma, 'MS Sans Serif';
+    FONT-VARIANT: normal;
+    TEXT-DECORATION: none
+}
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #006699;
+	text-decoration: none;
+}
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.brd {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+}
+.brdenvie {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999999;
+}
+.brd_mural {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #000000;
+	border: 1px solid #FFFFFF;
+}

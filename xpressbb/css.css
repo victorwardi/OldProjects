@@ -1,0 +1,83 @@
+.fonte {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	color: #000000;
+}
+.barnco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bolder;
+	color: #FFFFFF;
+}
+.tabela_fundo {
+	background-image: url(painel/fundo.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.rodape {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: lighter;
+	color: #FFFFFF;
+}
+
+.borda {
+	border: 1px solid #000000;
+}
+.total {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bolder;
+	color: #FF0000;
+}
+.linha {
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #3B63A1;
+	border-right-color: #3B63A1;
+	border-bottom-color: #3B63A1;
+	border-left-color: #3B63A1;
+	text-indent: 5px;
+}
+.linha_1px_pontilhada {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: dotted;
+	border-left-style: none;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+#rodape {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+#rodape a{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+
+#rodape a:hover{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: bolder;
+}

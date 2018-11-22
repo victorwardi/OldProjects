@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>bradock</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<table width="200" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="3"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="766" height="374" title="head">
+      <param name="movie" value="../../../header_V8.swf" />
+      <param name="quality" value="high" />
+      <embed src="../../../header_V8.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="766" height="374"></embed>
+    </object></td>
+  </tr>
+  <tr>
+    <td rowspan="3"><!-- TemplateBeginEditable name="conteudo" --><!-- TemplateEndEditable --></td>
+    <td><img src="../dif/images/teste_03.gif" width="45" height="135" alt="3" /></td>
+    <td><!-- TemplateBeginEditable name="texto1" --><img src="../dif/images/teste_04.gif" width="228" height="135" alt="4" /><!-- TemplateEndEditable --></td>
+  </tr>
+  <tr>
+    <td><img src="../dif/images/teste_05.gif" width="45" height="106" alt="5" /></td>
+    <td><!-- TemplateBeginEditable name="texto2" --><img src="../dif/images/teste_06.gif" width="228" height="106" alt="6" /><!-- TemplateEndEditable --></td>
+  </tr>
+  <tr>
+    <td><img src="../dif/images/teste_07.gif" width="45" height="94" alt="7" /></td>
+    <td><!-- TemplateBeginEditable name="texto3" --><img src="../dif/images/teste_08.gif" width="228" height="94" alt="8" /><!-- TemplateEndEditable --></td>
+  </tr>
+  <tr>
+    <td colspan="3"><img src="../dif/images/teste_09.gif" alt="9" width="766" height="101" border="0" usemap="#Map" /></td>
+  </tr>
+</table>
+
+<map name="Map" id="Map"><area shape="rect" coords="38,60,74,73" href="index.htm" />
+<area shape="rect" coords="94,60,164,74" href="quem.htm" />
+<area shape="rect" coords="179,58,216,73" href="vende.htm" />
+<area shape="rect" coords="235,57,272,76" href="pousada.htm" />
+<area shape="rect" coords="293,56,384,75" href="pousada.htm" />
+<area shape="rect" coords="403,53,476,75" href="contato.htm" />
+</map></body>
+</html>

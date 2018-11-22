@@ -1,0 +1,52 @@
+A:link {color:#0048FE; text-decoration:underline;}
+A:visited {color:#0048FE; text-decoration:underline;}
+A:hover {color:#255370; text-decoration:underline;}
+A.mn:link {color:#008837; text-decoration:none;}
+A.mn:visited {color:#008837; text-decoration:none;}
+A.mn:hover {color:#008837; text-decoration:underline;}
+A.nt:link {color:#000000; text-decoration:none;}
+A.nt:visited {color:#000000; text-decoration:none;}
+A.nt:hover {color:#000000; text-decoration:underline;}
+A.br:link {color:#FFFFFF; text-decoration:none;}
+A.br:visited {color:#FFFFFF; text-decoration:none;}
+A.br:hover {color:#FFFFFF; text-decoration:underline;}
+A.gr:link {text-decoration:none;}
+A.gr:visited {text-decoration:none;}
+A.gr:hover {text-decoration:underline;}
+body {font-family:Verdana,Arial; font-size:10px;}
+td   {font-family:Verdana,Arial; font-size:10px;}
+.form-busca  {font-family:Verdana,Arial; font-size:10px; border-style: solid; border-width: 1px; border-color: #0091C5;}
+.form-arear  {font-family:Verdana,Arial; font-size:10px; border-style: solid; border-width: 1px; border-color: #ECF1C8;}
+.form-campeonatos  {font-family:Verdana,Arial; font-size:10px; color:#008837; font-weight:bold; background-color: #F3F6DB;};}
+.form-ca  {font-family:Verdana,Arial; font-size:10px; color:#004389; font-weight:bold; background-color: #FFF3C6;};}
+.form-sa  {font-family:Verdana,Arial; font-size:10px; color:#004389; font-weight:bold; background-color: #E5ECF3;};}
+.form-gr  {font-family:Verdana,Arial; font-size:10px;}
+.form-alterar  {
+	font-family:Verdana,Arial;
+	font-size:10px;
+	font-weight:bold;
+	color: #00682B;
+	border-width: 1px;
+	border-color: #A5BE00;
+	background-color: #EDF2CC;
+}
+
+
+A.link-bs:link {color:#255370; font-weight:bold; text-decoration:none;}
+A.link-bs:visited {color:#255370; font-weight:bold; text-decoration:none;}
+A.link-bs:hover {color:#1E7BBD; font-weight:bold; text-decoration:none;}
+A.link-galeria:link {color:#255571; font-weight:bold; text-decoration:none;}
+A.link-galeria:visited {color:#255571; font-weight:bold; text-decoration:none;}
+A.link-galeria:hover {color:#1E7BBD; font-weight:bold; text-decoration:none;}
+
+
+
+
+.peq  {font-family:Verdana,Arial; font-size:9px; text-align:justify}
+.peq2  {font-family:Verdana,Arial; font-size:9px;}
+.titulo-noticia  {font-family:Verdana,Arial; font-weight:bold; font-size:14px;}
+.titulo-data  {font-family:Verdana,Arial; color:#AAAAAA; font-size:9px;}
+.noticia  {font-family:Verdana,Arial; font-size:12px;}
+.gra  {font-family:Verdana,Arial; font-size:13px;}
+.form  {font-family:Verdana,Arial; font-size:11px; border-style: solid; border-width: 1px;}
+.titpri  {font-size:15px; font-family:Verdana,Arial;}

@@ -1,0 +1,61 @@
+a,a:active,a:visited {
+	color: #000000;
+}
+
+a:hover {
+	color: #000000;
+}
+
+h1 {
+	font-size: 16px;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#container { 
+	width: 50%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.footer {
+	background-color: #0076BC;
+	padding: 0.5em;
+}
+
+.leightbox {
+	color: #333;
+	display: none;
+	position: absolute;
+	top: 10%;
+	left: 25%;
+	width: 400px;
+	height: 300px;
+	padding: 1em;
+	border: 4px solid #0076BC;
+	background-color: white;
+	text-align: left;
+	z-index:1001;
+	overflow: auto;	
+}
+
+#overlay2{
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:1000;
+	background-color:#000;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}
+
+.lightbox[id]{ /* IE6 and below Can't See This */    position:fixed;    }#overlay[id]{ /* IE6 and below Can't See This */    position:fixed;    }
+.negrito {
+	font-size: 12px;
+	font-weight: bolder;
+	color: #000000;
+}

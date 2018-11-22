@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+#barra{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-image: url(../img/barra_login.jpg);
+	background-repeat: repeat-x;
+	height:40px;
+	text-align: left;
+	vertical-align: middle;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	text-indent: 40px;
+}
+
+#login{
+	float: right;
+	width: 300px;
+	position: absolute;
+
+}

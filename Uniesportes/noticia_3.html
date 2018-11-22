@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>UniEsportes - Esportes Radicais</title>
+<script type="text/javascript">
+  // Altera o tamanho da fonte utilizando-se das classes do CSS.
+  // Cada tamanho deverá ter uma classe no CSS, específico para a fonte.
+  function sizeFont (nivel, elem)
+  {
+      document.getElementById(elem).className = "nivel"+nivel;
+  }
+
+  // Altera o tamanho da fonte até um determinado limite.
+  // Não é necessário CSS para este script funcionar.
+  function sizeFont2 (elem, acao)
+  {
+      // tamanho inicial da fonte (em px)
+      var tamInic = 12;
+      
+      // Tamanho mínimo da fonte (em px)
+      var tamMin = 8;
+      
+      // Tamanho máximo da fonte (em px)
+      var tamMax = 22;
+
+      // Pega o tamanho da fonte. Se não foi setada ainda (primeira vez
+      // que a função é executada) terá como tamanho padrão 'tamInic'.
+      if (document.getElementById(elem).style.fontSize == "") 
+        var tamFonte = tamInic;
+      else
+        var tamFonte = parseInt(document.getElementById(elem).style.fontSize);
+      switch (acao)
+      {
+        // Aumenta o tamanho, enquanto foi menor que 'tamMax'
+        case '+':
+          if (tamFonte < tamMax)
+            document.getElementById(elem).style.fontSize = (tamFonte + 2) + "px";
+        break;
+        
+        // Diminui o tamanbo, enquanto for maior que 'tamMin'
+        case '-':
+          if (tamFonte > tamMin)
+            document.getElementById(elem).style.fontSize = (tamFonte - 2) + "px";
+        break;
+      }
+  }
+  </script>
+<!-- InstanceEndEditable -->
+<link href="css/stilo.css" rel="stylesheet" type="text/css" />
+<!-- InstanceBeginEditable name="head" -->
+<style type="text/css">
+<!--
+.style2 {font-size: 16}
+-->
+</style>
+<!-- InstanceEndEditable -->
+<style type="text/css">
+<!--
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #798FBE;
+}
+a:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+body {
+	background-image: url(imagens/fundo.jpg);
+	background-repeat: repeat-x;
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: lighter;
+	color: #000000;
+}
+-->
+</style>
+</head>
+
+<body>
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="borda_preto_1px">
+  <tr>
+    <th scope="col"><img src="imagens/logo.jpg" width="700" height="150" /></th>
+  </tr>
+  <tr>
+    <th height="25" bgcolor="#000000" class="menu" scope="row"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th width="110" height="34" align="center" valign="middle" scope="col"><a href="index.html">P&aacute;gina inicial</a> </th>
+          <th width="3" align="center" valign="middle" class="barra_menu" scope="col">|</th>
+          <th width="78" align="center" valign="middle" scope="col"><a href="noticias.html">Not&iacute;cias</a></th>
+          <th width="10" align="center" valign="middle" class="barra_menu" scope="col">|</th>
+          <th width="133" align="center" valign="middle" scope="col"><a href="galeria.html">Galeria de Fotos</a> </th>
+          <th width="9" align="center" valign="middle" class="barra_menu" scope="col">|</th>
+          <th width="70" align="center" valign="middle" scope="col"><a href="atletas.html">Atletas</a></th>
+          <th width="10" align="center" valign="middle" class="barra_menu" scope="col">|</th>
+          <th width="67" align="center" valign="middle" scope="col"><a href="videos.html">V&iacute;deos</a></th>
+          <th width="8" align="center" valign="middle" class="barra_menu" scope="col">|</th>
+          <th width="77" align="center" valign="middle" scope="col"><a href="contato.html">Contato</a></th>
+          <th width="13" align="center" valign="middle" scope="col"><span class="barra_menu">|</span></th>
+          <th width="116" align="center" valign="middle" scope="col"> <a href="mapa/index.html">Mapa do S&iacute;tio </a> </th>
+        </tr>
+      </table></th>
+  </tr>
+  <tr>
+    <th height="32" align="center" valign="top" scope="row"><!-- InstanceBeginEditable name="conteudo" -->
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th scope="col"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <th colspan="2" align="center" valign="middle" scope="col"><table width="98%" border="0" cellpadding="0" cellspacing="0" class="borda_preto_1px_BAIXO" id="not">
+                <tr>
+                  <th height="30" align="left" valign="middle" class="caminho_" scope="col"><span class="caminho_"> <span class="texto_not"><a href="index.html">P&aacute;gina Inicial</a> &gt;&gt;</span> <a href="noticias.html">Not&iacute;cias</a> &gt;&gt; </span><span class="titulo_not">Rio BB Pro vem com for&ccedil;a total em 2007 </span></th>
+                </tr>
+              </table></th>
+              </tr>
+            
+            <tr>
+              <th width="30%" align="left" valign="top" scope="col"><table  width="98" border="0" cellspacing="4" cellpadding="0">
+                <tr>
+                  <th scope="col"><img src="imagens/fotos/mini/i.jpg" alt="" width="200" height="125" class="borda_preto_1px" /></th>
+                </tr>
+              </table></th>
+              <th width="70%" align="center" valign="top" scope="col"><table width="100%" border="0" cellpadding="0" cellspacing="8" id="mapa">
+                <tr>
+                  <th width="61%" align="left" valign="top" class="texto_not" scope="col"><table width="96%" border="0" align="left" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <th width="73%" align="left" valign="middle" scope="col"><span class="texto_not_negrito">fonte:</span> <span class="texto_not">Abbctour.net </span></th>
+                      <th width="7%" scope="col">&nbsp;</th>
+                      <th width="20%" scope="col">&nbsp;</th>
+                    </tr>
+                    <tr>
+                      <th align="left" class="texto_not" scope="col">Alterar o tamanho da fonte do texto </th>
+                      <th scope="col"><a href="javascript:sizeFont2('materia','-');void(0);"><img src="imagens/menor.jpg" alt="Diminuir" width="15" height="15" border="0" /></a></th>
+                      <th align="left" scope="col"><a href="javascript:sizeFont2('materia','+');void(0);"><img src="imagens/maior.jpg" alt="Aumentar" width="20" height="15" border="0" /></a></th>
+                    </tr>
+                  </table></th>
+                  <th width="39%" align="right" valign="top" class="texto_not" scope="col"><span class="texto_not_negrito">data: </span>01/05/07 </th>
+                </tr>
+                <tr>
+                  <th height="282" colspan="2" align="left" valign="top" scope="col"><table id="materia" class="texto_not" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <th align="left" valign="top" scope="col"><p align="justify">O evento que acontecer&aacute; em   Itacoatira (Niter&oacute;i), entre 03 e 13 de Maio, aconteceria com24 atletas fixos,   agora, com a mudan&ccedil;a ser&atilde;o 32. Essa mudan&ccedil;a &eacute; perfeita, pois n&atilde;o altera o   cronograma, possibilitando colocar outros atletas da elite do bodyboard   brasileiro no evento. O Rio Bodyboard Pro agora com refor&ccedil;os de peso como o campe&atilde;o mundial de   2000 Paulo Barcellos, Guilherme Correia, Jefferson Anute, Luis Villar,Lucas   Nogueira entre outros. </p>
+                        <p align="justify">Com isso o Rio BB Pro, ser&aacute;   o evento regional com o maior n&uacute;mero de atletas de ponta competindo no   Brasil.</p>
+                        <p align="justify"><span lang="PT-BR" xml:lang="PT-BR">Todos esperam que este campeonato seja o mais   emocionante de todos os tempos realizado no Rio. </span><span class="texto_not" lang="PT-BR" xml:lang="PT-BR">&nbsp;</span>Com janela de espera por ondas   perfeitas e atletas de n&iacute;vel internacional.O Rio BB Pro inova com o pico   alternativo&rdquo; o SHOCK &rdquo;&nbsp; fundo de pedras   com tubos perfeitos e pesados, localizado na prainha,lado direito da praia   de&nbsp; itacoatiara local de f&aacute;cil acesso   para o publico,m&iacute;dia e simpatizantes do esporte, que nos da garantia do show nas   ondas pesadas e perfeitas de Itacoatiara ! Disse Santiago Tobar(campe&atilde;o da   primeira edi&ccedil;&atilde;o do evento em 2005).</p>                        
+                        <p align="justify"><br />
+                        </p>                          </th>
+                    </tr>
+                  </table>
+                  </th>
+                </tr>
+              </table>                
+                </th>
+            </tr>
+          </table></th>
+        </tr>
+      </table>
+    <!-- InstanceEndEditable --></th>
+  </tr>
+  <tr>
+    <th height="30" align="center" valign="middle" bgcolor="#A7B7D1" class="texto_secao" scope="row">Melhor Visualizado 800X600 - &Uacute;tima Atualiza&ccedil;&atilde;o - 22/05/07 <br />
+      Todos os Direitos Reservados - UniEsportes - Esportes Radicais - 2007<br />
+    Desenvolvido por Victor Caetano e F&aacute;bio Arantes </th>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

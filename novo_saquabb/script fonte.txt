@@ -1,0 +1,14 @@
+<script language="JavaScript" type="text/javascript">
+	var tam = 13;
+	function mudaFonte(tipo){
+		if (tipo=="mais") {
+			if(tam<16) tam+=2;
+			createCookie('fonte',tam,365);
+		} else {
+			if(tam>9) tam-=2;
+			createCookie('fonte',tam,365);
+		}
+		document.getElementById('textoContainer').style.fontSize = tam+'px';
+	}
+	
+</script>

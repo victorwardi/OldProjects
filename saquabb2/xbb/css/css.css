@@ -1,0 +1,123 @@
+TABLE.cmega {
+	BACKGROUND-COLOR: #189e52
+}
+TABLE.csuper {
+	BACKGROUND-COLOR: #008e94
+}
+TABLE.cloto {
+	BACKGROUND-COLOR: #f37022
+}
+TABLE.cquina {
+	BACKGROUND-COLOR: #210884
+}
+TABLE.cbolao {
+	BACKGROUND-COLOR: #0388b3
+}
+TABLE.cfederal {
+	BACKGROUND-COLOR: #084194
+}
+A:link {
+	COLOR: #005baa; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #005baa; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+.formesq {
+	FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: verdana; BACKGROUND-COLOR: #606760
+}
+.formperfil {
+	FONT-SIZE: 8pt; COLOR: white; FONT-FAMILY: verdana; BACKGROUND-COLOR: #f77321
+}
+.forminteresse {
+	FONT-SIZE: 8pt; COLOR: white; FONT-FAMILY: verdana; BACKGROUND-COLOR: #005aad
+}
+.formdir {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: verdana; BACKGROUND-COLOR: #e0e0e0
+}
+.txthora {
+	FONT-SIZE: 7pt; COLOR: #ffffff; FONT-FAMILY: Verdana
+}
+.txtdireita {
+	FONT-SIZE: 8pt; COLOR: #005baa; FONT-FAMILY: Verdana
+}
+.txtcentral {
+	FONT-SIZE: 8pt; COLOR: #666666; FONT-STYLE: normal; FONT-FAMILY: Verdana
+}
+.input {
+	FONT-SIZE: 8pt; COLOR: black; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #ffffff
+}
+.txtmenu {
+	FONT-SIZE: 8.5pt; COLOR: #336699; FONT-FAMILY: Verdana
+}
+.txttitulo {
+	FONT-SIZE: 9pt; COLOR: #005baa; FONT-FAMILY: Verdana
+}
+.txtIframe {
+	FONT-SIZE: 10px; COLOR: #c1e3fb; FONT-FAMILY: verdana
+}
+.txtbranco {
+	FONT-SIZE: 7.5pt; COLOR: #ffffff; FONT-FAMILY: Verdana
+}
+.txtazul {
+	FONT-SIZE: 7.5pt; COLOR: #005baa; FONT-FAMILY: Verdana
+}
+.txtlaranja {
+	FONT-SIZE: 7.5pt; COLOR: #f37022; FONT-FAMILY: Verdana
+}
+.txtcentral {
+	FONT-SIZE: 8pt; COLOR: #666666; FONT-STYLE: normal; FONT-FAMILY: Verdana
+}
+.formcima {
+	FONT-SIZE: 10pt; COLOR: white; FONT-FAMILY: verdana; BACKGROUND-COLOR: #606760
+}
+.formloginMenu {
+	FONT-SIZE: 7.5pt; WIDTH: 80px; COLOR: black; FONT-FAMILY: verdana; BACKGROUND-COLOR: #cccccc
+}
+.txttituloazulgrande {
+	FONT-SIZE: 16pt; COLOR: #005baa; FONT-FAMILY: Verdana
+}
+.cinza {
+	FONT-SIZE: 8pt; COLOR: gray; FONT-FAMILY: Verdana
+}
+.txtpequeno {
+	FONT-SIZE: 6pt; COLOR: black; FONT-STYLE: normal; FONT-FAMILY: Verdana
+}
+.tdlaranja {
+	FONT-WEIGHT: bolder; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #f77129
+}
+.tdcinza {
+	FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Verdana
+}
+.tdazul {
+	FONT-SIZE: 10px; COLOR: #0059ad; FONT-FAMILY: Verdana
+}
+.txtsubcentral {
+	FONT-SIZE: 8pt; COLOR: #f37022; FONT-FAMILY: Verdana
+}
+.txtazulbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #005baa; FONT-STYLE: normal; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.txtazuljogo {
+	FONT-WEIGHT: bold; FONT-SIZE: 13pt; COLOR: #005baa; FONT-STYLE: normal; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+TABLE.laranja {
+	BACKGROUND-COLOR: #ff7121
+}
+.celazul {
+	FONT-SIZE: 8pt; COLOR: white; FONT-STYLE: normal; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #0388b3; TEXT-ALIGN: center
+}
+.txtcentral1 {
+	FONT-SIZE: 8pt; COLOR: black; FONT-STYLE: normal; FONT-FAMILY: Verdana; TEXT-ALIGN: center
+}
+.txtazulbolao {
+	FONT-SIZE: 8pt; COLOR: #0388b3; FONT-STYLE: normal; FONT-FAMILY: Verdana
+}
+.cellaranja {
+	FONT-SIZE: 8pt; COLOR: white; FONT-STYLE: normal; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #ff7121
+}
+.txtadminbingo {
+	FONT-SIZE: 8pt; COLOR: black; FONT-STYLE: normal; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}

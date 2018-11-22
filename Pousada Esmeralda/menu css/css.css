@@ -1,0 +1,50 @@
+/* CSS Document */
+#menu td {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+	}
+	
+#menu a {
+	color: #333333;
+	line-height:16px;
+	letter-spacing:0.1em;
+	text-decoration: none;
+	display:block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: left;
+	text-indent: 5px;
+	border-top-width: 3px;
+	border-right-width: 3px;
+	border-bottom-width: 3px;
+	border-left-width: 3px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #009900;
+	border-right-color: #009900;
+	border-bottom-color: #009900;
+	border-left-color: #009900;
+	margin: 1px;
+	padding: 1px;
+	}
+	
+#menu a:hover {
+	color: #FFFFFF;
+	line-height:16px;
+	letter-spacing:0.1em;
+	text-decoration: none;
+	display:block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: left;
+	text-indent: 5px;
+	background-color: #009900;
+	padding: 5px;
+	width: 50px;
+	}
+	

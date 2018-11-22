@@ -1,0 +1,3 @@
+Dayfox Mailist
+
+Version 0.9

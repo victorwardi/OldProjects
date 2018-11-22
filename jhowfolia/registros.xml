@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tickers>
+<ticker>
+<titulo>Programação do Evento</titulo>
+<categoria></categoria>
+<data>14/02/09</data>
+<imagem>uploads/fotos/flyer_1.jpg</imagem>
+<link>http://www.jhowfolia.com.br/novidade.php?id=8</link>
+</ticker>
+<ticker>
+<titulo>lala</titulo>
+<categoria></categoria>
+<data>14/02/09</data>
+<imagem>uploads/fotos/abada_1.jpg</imagem>
+<link>http://www.jhowfolia.com.br/novidade.php?id=7</link>
+</ticker>
+<ticker>
+<titulo>Teste de sistema adm</titulo>
+<categoria></categoria>
+<data>10/04/08</data>
+<imagem>uploads/fotos/agua.jpg</imagem>
+<link>http://www.jhowfolia.com.br/novidade.php?id=5</link>
+</ticker>
+</tickers>

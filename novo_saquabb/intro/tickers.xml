@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tickers>
+<ticker>
+<titulo>Saquabb em Flash</titulo>
+<coluna>Competição</coluna>
+<data>06/03/07</data>
+<imagem>../uploads/fotos/01.jpg</imagem>
+<link>http://www.saquabb.com.br/exibir_noticia.php?id=87</link>
+</ticker>
+<ticker>
+<titulo>Jeff Campeão Mundial</titulo>
+<coluna>Notícias</coluna>
+<data>15/01/07</data>
+<imagem>../uploads/fotos/02.jpg</imagem>
+<link>http://www.saquabb.com.br/exibir_noticia.php?id=86</link>
+</ticker>
+<ticker>
+<titulo>Preview DVD BBLagos 2006</titulo>
+<coluna>BBLagos</coluna>
+<data>09/01/07</data>
+<imagem>../uploads/fotos/03.jpg</imagem>
+<link>http://www.saquabb.com.br/exibir_noticia.php?id=85</link>
+</ticker>
+<ticker>
+<titulo>Feliz Ano Novo!</titulo>
+<coluna>Saquabb</coluna>
+<data>28/12/06</data>
+<imagem>../uploads/fotos/Untitled-2.jpg</imagem>
+<link>http://www.saquabb.com.br/exibir_noticia.php?id=84</link>
+</ticker>
+<ticker>
+<titulo>Profissionais e amadores mostraram altíssimo nível no ACBB.</titulo>
+<coluna>Notícias</coluna>
+<data>11/12/2006</data>
+<imagem>../uploads/fotos/DSC01845.jpg</imagem>
+<link>http://www.saquabb.com.br/exibir_noticia.php?id=83</link>
+</ticker>
+<ticker>
+<titulo>Kpaloa Musas 2006 Finalizado!</titulo>
+<coluna>Girls</coluna>
+<data>04/12/06</data>
+<imagem>../uploads/fotos/capa_5.jpg</imagem>
+<link>http://www.saquabb.com.br/exibir_noticia.php?id=81</link>
+</ticker>
+<ticker>
+<titulo>Erisberto na Kung</titulo>
+<coluna>Notícias</coluna>
+<data>01/12/06</data>
+<imagem>../uploads/fotos/kung.jpg</imagem>
+<link>http://www.saquabb.com.br/exibir_noticia.php?id=80</link>
+</ticker>
+</tickers>

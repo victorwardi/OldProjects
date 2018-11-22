@@ -1,0 +1,354 @@
+/*##########  Text styles ############*/
+/*############################################*/
+/*### layout styling is in another css file ###*/
+
+h1,h2,h3,h4 {
+	padding: 0px;
+	margin: 0px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+}
+
+a:active, a:hover {
+	text-decoration: none;
+}
+
+.secheadline {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #FFF;
+	letter-spacing: -1.5px;
+	font-weight: bold;
+}
+.pagingnos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding: 0px 3px 0px 3px;
+	color: #7B5F3B;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.colornos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding: 0px 3px 0px 3px;
+	color: #4A6E93;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+div.prodname {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 12px;
+	text-transform: uppercase;
+	color: #FFF;
+	background-color: #88795C;
+	text-decoration: none;
+}
+
+div.prodname a:link, div.prodname a:visited {
+	color: #FFFFFF;
+}
+div.prodname a:hover, div.prodname a:hover {
+	color: #FFFFFF;
+}
+
+div.staticmenu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 12px;
+	text-transform: uppercase;
+	color: #FFF;
+	/*background-color: #88795C;*/
+	text-decoration: none;
+}
+
+div.staticmenu a:link, div.staticmenu a:visited {
+	color: #FFFFFF;
+}
+div.staticmenu a:hover, div.staticmenu a:hover {
+	color: #FFDD46;
+}
+
+span.bonusStaticmenu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 12px;
+	text-transform: uppercase;
+	color: #FFF;
+	/*background-color: #88795C;*/
+	text-decoration: none;
+}
+
+span.bonusStaticmenu a:link, div.bonusStaticmenu a:visited {
+	color: #FFFFFF;
+}
+span.bonusStaticmenu a:hover, div.bonusStaticmenu a:hover {
+	color: #FFDD46;
+}
+
+
+
+#detailtable td.colorname {
+	color: #666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+td.info {
+	color: #B1946C;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-transform: lowercase;
+}
+td.info ul, td.info p {
+	padding: 0px;
+}
+td.info ul {
+	margin: 0px 0px 0px 18px;
+}
+td.info ul li {
+	line-height: 10px;
+	padding-bottom: 3px;
+	font-weight: normal;
+}
+
+td.storelist select {
+	font-size: 9px;
+	width: 134px;
+	height: 16px;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+
+.prodheadline {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #FFF;
+	letter-spacing: -1.5px;
+	font-weight: bold;
+}
+.prodnumber {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FFF;
+	letter-spacing: -1px;
+	line-height: 13px;
+	font-weight: bold;
+}
+
+
+#detcontrols table td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	vertical-align: middle;
+	padding: 0px 5px;
+}
+
+#detcontrols a:link,
+#detcontrols a:visited,
+#detcontrols a:hover,
+#detcontrols a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+span.newsday {
+	font-size: 40px;line-height: 35px;font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: bold; /*color: #7D8E59;*/color:#d5eca6;
+}
+span.newsmonth {
+	font-size: 24px;line-height: 26px;font-family: Verdana, Arial, Helvetica, sans-serif;/*color: #836E5A;*/color:#4b3c2e;
+}
+span.newsyear {
+	font-weight: bold; font-style:italic; font-size: 18px;line-height: 18px;font-family: Verdana, Arial, Helvetica, sans-serif;color: #D9DD9D;
+}
+div.articleheadline {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	/*color: #836E5A;*/
+	color:#44352a;
+	line-height: 15px;
+	font-weight: bold;
+}
+
+#newsstory {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	line-height: 13px;
+}
+#newsstory p {
+	padding: 0;
+	margin: 0 0 15px 0;
+}
+#controls table td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	padding: 0px 5px;
+}
+
+.biocountry {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #FFF;
+	line-height: 13px;
+	font-weight: bold;
+} 
+.bioname {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 26px;
+	color: #FFF;
+	line-height: 26px;
+	font-weight: bold;
+}
+
+div#biocontent {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	color: #FFF;
+}
+
+#dealrsrchform td.frmlabel {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #427192;
+	text-align: left;
+	font-weight: bold;
+	padding-top: 13px;
+}
+#dealersrchform td {
+	text-align: left !important;
+}
+
+td.dlrformfield {
+	padding-bottom: 25px;
+}
+td.dlrformfield input {
+	width: 115px;
+	font-size: 13px;
+}
+td.dlrformfield select {
+	width: 118px;
+	font-size: 13px;
+}
+
+table#dlritems td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #FFF;
+}
+
+td.email a:link, 
+td.email a:visited {
+	color: #602020;
+	background-color: #C5BBA8;
+	line-height: 25px;
+	padding-left: 5px;
+	padding-right: 5px;	
+}
+td.email a:hover, 
+td.email a:active {
+	color: #602020;
+	background-color: #BCD995;
+	line-height: 25px;
+	padding-left: 5px;
+	padding-right: 5px;	
+}
+
+a.dealerlink:link, 
+a.dealerlink:visited {
+	color: #602020;
+	background-color: #C5BBA8;
+	padding-left: 5px;
+	padding-right: 5px;	
+}
+a.dealerlink:hover, 
+a.dealerlink:active {
+	color: #602020;
+	background-color: #BCD995;
+	padding-left: 5px;
+	padding-right: 5px;	
+}
+
+div#careersintro {
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+div#culturecontent {
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+div#culturecontent p {
+	padding: 0px;
+	margin: 0px 0px 12px 0px;
+}
+
+#pagenumber {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding: 0px 3px 0px 3px;
+	color: #725B3C;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+div#howtopopup p, div#howtopopup td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	padding: 0;
+	margin: 0px 0px 13px 0px;
+}
+div#howtopopup a:link, div#howtopopup a:visited  {
+	color: #FFFFFF;
+	background-color: transparent;
+}
+div#howtopopup a:hover, div#howtopopup a:active  {
+	color: #FFFFFF;
+	background-color: #848484;
+}
+div#howtopopup a.closeme:hover, div#howtopopup a.closeme:active {
+	background-color: transparent;
+}
+
+td.dwnloadhdr {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #75744E;
+	font-weight: bold;
+	padding: 20px 0px 20px 0px;
+}
+
+#formResults {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+}

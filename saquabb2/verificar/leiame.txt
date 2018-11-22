@@ -1,0 +1,13 @@
+INSTRUÇÕES:
+
+1 º - CRIE UM PASTA EM SEU SERVIDOR WEB CHAMADA " VERIFICAR " 
+2 º - TRANSFIRA OS ARQUIVOS DESCOMPACTADOS EM SUA MAQUINA VIA FTP PARA SEU ENDEREÇO WEB
+( geralmente o arquivo e descompactado na area de trabalho de seu desktop 
+3º - CHAME O SCRIPT PELO ENDEREÇO DE SEU SERVIDOR POR EXEMPLO:
+
+http://www.seudominio.com.br/verificar 
+
+Ai ele vai mostrar todas as configurações do seu servidor
+
+
+Entre em nosso site: www.rg3.com.br

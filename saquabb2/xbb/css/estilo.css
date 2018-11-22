@@ -1,0 +1,258 @@
+A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:link {
+	TEXT-DECORATION: none
+}
+A:active {
+	TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ee0000; TEXT-DECORATION: underline
+}
+.v8 {
+	FONT-SIZE: 8pt; FONT-STYLE: normal; FONT-FAMILY: verdana
+}
+.v9 {
+	FONT-SIZE: 9pt; FONT-STYLE: normal; FONT-FAMILY: verdana
+}
+.v10 {
+	FONT-SIZE: 10pt; FONT-STYLE: normal; FONT-FAMILY: verdana
+}
+.v11 {
+	FONT-SIZE: 11pt; FONT-STYLE: normal; FONT-FAMILY: verdana
+}
+.v12 {
+	FONT-SIZE: 12pt; FONT-STYLE: normal; FONT-FAMILY: verdana
+}
+.v13 {
+	FONT-SIZE: 13pt; FONT-STYLE: normal; FONT-FAMILY: verdana
+}
+.a7 {
+	FONT-SIZE: 7pt; FONT-FAMILY: arial
+}
+.a8 {
+	FONT-SIZE: 8pt; FONT-STYLE: normal; FONT-FAMILY: arial
+}
+.a9 {
+	FONT-SIZE: 9pt; FONT-STYLE: normal; FONT-FAMILY: arial
+}
+.a10 {
+	FONT-SIZE: 10pt; FONT-STYLE: normal; FONT-FAMILY: arial
+}
+.a11 {
+	FONT-SIZE: 11pt; FONT-STYLE: normal; FONT-FAMILY: arial
+}
+.a12 {
+	FONT-SIZE: 12pt; FONT-STYLE: normal; FONT-FAMILY: arial
+}
+.a13 {
+	FONT-SIZE: 13pt; FONT-STYLE: normal; FONT-FAMILY: arial
+}
+.a14 {
+	FONT-SIZE: 14pt; FONT-STYLE: normal; FONT-FAMILY: arial
+}
+.t10 {
+	FONT-SIZE: 10pt; FONT-STYLE: normal; FONT-FAMILY: times
+}
+.t11 {
+	FONT-SIZE: 11pt; FONT-STYLE: normal; FONT-FAMILY: times
+}
+.t12 {
+	FONT-SIZE: 12pt; FONT-STYLE: normal; FONT-FAMILY: times
+}
+.efeitooff {
+	BORDER-RIGHT: #dbdbdb 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #dbdbdb 1px solid; PADDING-LEFT: 8px; PADDING-BOTTOM: 2px; BORDER-LEFT: #dbdbdb 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #dbdbdb 1px solid; HEIGHT: 15px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.efeitoon {
+	BORDER-RIGHT: #dbdbdb 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: #dbdbdb 1px solid; PADDING-LEFT: 8px; PADDING-BOTTOM: 2px; BORDER-LEFT: #dbdbdb 1px solid; COLOR: #ff0000; PADDING-TOP: 2px; BORDER-BOTTOM: #dbdbdb 1px solid; HEIGHT: 15px; BACKGROUND-COLOR: #f1f1f1; TEXT-DECORATION: none
+}
+.SubTitulo {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #888888; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.topomenu:link {
+	BORDER-RIGHT: #dbdbdb 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #dbdbdb 1px solid; PADDING-LEFT: 8px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; BORDER-LEFT: #dbdbdb 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #dbdbdb 1px solid; HEIGHT: 15px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.topomenu:visited {
+	BORDER-RIGHT: #dbdbdb 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #dbdbdb 1px solid; PADDING-LEFT: 8px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; BORDER-LEFT: #dbdbdb 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #dbdbdb 1px solid; HEIGHT: 15px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.topomenu:hover {
+	BORDER-RIGHT: #dbdbdb 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: #dbdbdb 1px solid; PADDING-LEFT: 8px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; BORDER-LEFT: #dbdbdb 1px solid; COLOR: #ff0000; PADDING-TOP: 2px; BORDER-BOTTOM: #dbdbdb 1px solid; HEIGHT: 15px; BACKGROUND-COLOR: #f1f1f1; TEXT-DECORATION: underline
+}
+.SubTitulo {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #888888; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.SubTitulo2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; COLOR: #706647
+}
+.b {
+	FONT-WEIGHT: bold
+}
+.s {
+	TEXT-DECORATION: underline
+}
+.texto {
+	FONT-SIZE: 9pt;
+	COLOR: #666666;
+	FONT-FAMILY: arial;
+	line-height: 15px;
+}
+.preto {
+	COLOR: #303030
+}
+.preto2 {
+	COLOR: #303030
+}
+.branco {
+	COLOR: #ffffff
+}
+.azultop {
+	COLOR: #0000ee
+}
+.azul {
+	COLOR: #0000ee
+}
+.tazul {
+	COLOR: #0066cc
+}
+.tazul2 {
+	COLOR: #000066
+}
+.azul2 {
+	COLOR: #003063
+}
+.azul3 {
+	COLOR: #0000bb
+}
+.azule {
+	COLOR: #4863a0
+}
+.cinza {
+	COLOR: #999999
+}
+.vermelho {
+	COLOR: #ff0000
+}
+.vermelho2 {
+	COLOR: #cc0000
+}
+.laranja {
+	COLOR: #ff9a03
+}
+.laranj2 {
+	COLOR: #ff8204
+}
+.subhm {
+	COLOR: #285072
+}
+.verde {
+	COLOR: #25677d
+}
+.t {
+	FONT-SIZE: 10px; FONT-FAMILY: verdana,arial
+}
+.campo-bordaazul {
+	BORDER-RIGHT: #003399 1px solid; BORDER-TOP: #003399 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #003399 1px solid; WIDTH: 90px; COLOR: black; BORDER-BOTTOM: #003399 1px solid; FONT-FAMILY: Tahoma, Verdana; HEIGHT: 15px; BACKGROUND-COLOR: #f1f1f1
+}
+.campo-centro {
+	BORDER-RIGHT: #000000 1px ridge; BORDER-TOP: #000000 1px ridge; FONT-WEIGHT: bold; FONT-SIZE: 11px; VERTICAL-ALIGN: middle; BORDER-LEFT: #000000 1px ridge; WIDTH: 25px; COLOR: #000000; BORDER-BOTTOM: #000000 1px ridge; FONT-STYLE: normal; FONT-FAMILY: Arial, Tahoma, Verdana; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center; FONT-VARIANT: normal
+}
+.campo-produtos {
+	BORDER-RIGHT: #84a9b7 1px solid; BORDER-TOP: #84a9b7 1px solid; FONT-SIZE: 8pt; VERTICAL-ALIGN: middle; BORDER-LEFT: #84a9b7 1px solid; COLOR: black; BORDER-BOTTOM: #84a9b7 1px solid; FONT-STYLE: normal; FONT-FAMILY: Tahoma, Verdana; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center; FONT-VARIANT: normal
+}
+.campo-produtosdestacar {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 8pt; VERTICAL-ALIGN: middle; BORDER-LEFT: #000000 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #000000 1px solid; FONT-STYLE: normal; FONT-FAMILY: Tahoma, Verdana; BACKGROUND-COLOR: red; TEXT-ALIGN: center; FONT-VARIANT: normal
+}
+.campo-azul {
+	BORDER-RIGHT: #a3a7ad 1px solid; BORDER-TOP: #a3a7ad 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #a3a7ad 1px solid; COLOR: black; BORDER-BOTTOM: #a3a7ad 1px solid; FONT-FAMILY: Tahoma, Verdana; BACKGROUND-COLOR: #f9f9f9
+}
+.campov {
+	FONT-SIZE: 10px; FONT-FAMILY: verdana
+}
+.campo-cinza {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #999999 1px solid; COLOR: black; BORDER-BOTTOM: #999999 1px solid; FONT-FAMILY: Tahoma, Verdana; BACKGROUND-COLOR: #f1f1f1
+}
+.campo-branco {
+	BORDER-RIGHT: #84a9b7 1px solid; BORDER-TOP: #84a9b7 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #84a9b7 1px solid; COLOR: black; BORDER-BOTTOM: #84a9b7 1px solid; FONT-FAMILY: Tahoma, Verdana; BACKGROUND-COLOR: #ffffff
+}
+.campo-login {
+	BORDER-RIGHT: #888888 1px solid; BORDER-TOP: #888888 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #888888 1px solid; COLOR: black; BORDER-BOTTOM: #888888 1px solid; FONT-FAMILY: Tahoma, Verdana; BACKGROUND-COLOR: #ffffff
+}
+.campo-branco2 {
+	BORDER-RIGHT: #ababab 1px solid; BORDER-TOP: #ababab 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #ababab 1px solid; COLOR: black; BORDER-BOTTOM: #ababab 1px solid; FONT-FAMILY: Tahoma, Verdana; BACKGROUND-COLOR: #ffffff
+}
+.campo {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 8pt; BORDER-BOTTOM-WIDTH: 1px; COLOR: black; FONT-FAMILY: Tahoma, Verdana; BACKGROUND-COLOR: #f7f7f7; BORDER-RIGHT-WIDTH: 1px
+}
+.botao {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 8pt; BORDER-LEFT-COLOR: #ffffff; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #ffffff; COLOR: black; BORDER-TOP-COLOR: #ffffff; FONT-FAMILY: Tahoma, Verdana; BACKGROUND-COLOR: #e8e8e8; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #ffffff
+}
+.botaol {
+	BORDER-TOP-WIDTH: 1px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 8pt; BORDER-LEFT-COLOR: #ffffff; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #ffffff; COLOR: #ffffff; BORDER-TOP-COLOR: #ffffff; FONT-FAMILY: Tahoma, Verdana; BACKGROUND-COLOR: #cc0000; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #ffffff
+}
+.botao2 {
+	BORDER-RIGHT: #dde7ee 1px inset; PADDING-RIGHT: 0px; BORDER-TOP: #80a4be 1px outset; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(htt://servidor/grupomay/imagens/bgform.jpg); PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #6f899a 1px outset; COLOR: #4b6a84; PADDING-TOP: 0px; BORDER-BOTTOM: #c3d4e0 1px inset; FONT-FAMILY: verdana, arial
+}
+.botao-azul {
+	BORDER-TOP-WIDTH: 1px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 8pt; BORDER-BOTTOM-WIDTH: 1px; COLOR: #ffffff; BORDER-TOP-COLOR: #ffffff; FONT-FAMILY: Tahoma, Verdana; HEIGHT: 20px; BACKGROUND-COLOR: #0061c6; BORDER-RIGHT-WIDTH: 1px
+}
+.botao-laranja {
+	BORDER-TOP-WIDTH: 1px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 8pt; BORDER-BOTTOM-WIDTH: 1px; COLOR: #ffffff; BORDER-TOP-COLOR: #ffffff; FONT-FAMILY: Tahoma, Verdana; HEIGHT: 20px; BACKGROUND-COLOR: #ff8700; BORDER-RIGHT-WIDTH: 1px
+}
+.titulo {
+	FONT-SIZE: 14px; COLOR: #3079a1; FONT-FAMILY: verdana,arial
+}
+.campo2 {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #666666 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #666666 1px solid; COLOR: #666666; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.planos {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; CURSOR: default; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.mouse-out {
+	BORDER-RIGHT: #eeece9 1px solid; BORDER-TOP: #eeece9 1px solid; BORDER-LEFT: #eeece9 1px solid; CURSOR: default; BORDER-BOTTOM: #eeece9 1px solid; BACKGROUND-COLOR: #eeece9
+}
+.mouse-over {
+	BORDER-RIGHT: #808080 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; CURSOR: default; BORDER-BOTTOM: #808080 1px solid; BACKGROUND-COLOR: #eeece9
+}
+.header {
+	PADDING-LEFT: 2px; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #0099cc
+}
+.preco_de {
+	COLOR: red
+}
+.preco {
+	FONT-WEIGHT: bold; COLOR: #0072c6
+}
+UL#ulcores {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+UL#ulcores LI {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; DISPLAY: block; FLOAT: left; MARGIN: 3px; BORDER-LEFT: #cccccc 1px solid; WIDTH: 27px; BORDER-BOTTOM: #cccccc 1px solid; HEIGHT: 27px
+}
+UL#ulcores LI A:link {
+	DISPLAY: block; WIDTH: 100%; HEIGHT: 100%; TEXT-DECORATION: none
+}
+UL#teste LI A:visited {
+	DISPLAY: block; WIDTH: 100%; HEIGHT: 100%; TEXT-DECORATION: none
+}
+.submenu:link {
+	BORDER-RIGHT: #dbdbdb 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: #dbdbdb 1px solid; PADDING-LEFT: 8px; FONT-SIZE: 8pt; PADDING-BOTTOM: 2px; BORDER-LEFT: #dbdbdb 1px solid; WIDTH: 150px; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #dbdbdb 1px solid; FONT-FAMILY: Tahoma, Verdana; HEIGHT: 15px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.submenu:visited {
+	BORDER-RIGHT: #dbdbdb 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: #dbdbdb 1px solid; PADDING-LEFT: 8px; FONT-SIZE: 8pt; PADDING-BOTTOM: 2px; BORDER-LEFT: #dbdbdb 1px solid; WIDTH: 150px; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #dbdbdb 1px solid; FONT-FAMILY: Tahoma, Verdana; HEIGHT: 15px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.submenu:hover {
+	BORDER-RIGHT: #dbdbdb 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: #dbdbdb 1px solid; PADDING-LEFT: 8px; FONT-SIZE: 8pt; PADDING-BOTTOM: 2px; BORDER-LEFT: #dbdbdb 1px solid; WIDTH: 150px; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #dbdbdb 1px solid; FONT-FAMILY: Tahoma, Verdana; HEIGHT: 15px; BACKGROUND-COLOR: #f7f7f7; TEXT-DECORATION: none
+}
+.submenulimpo:link {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-SIZE: 8pt; PADDING-BOTTOM: 2px; WIDTH: 150px; COLOR: #000000; PADDING-TOP: 2px; FONT-FAMILY: Tahoma, Verdana; HEIGHT: 15px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.submenulimpo:visited {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-SIZE: 8pt; PADDING-BOTTOM: 2px; WIDTH: 150px; COLOR: #000000; PADDING-TOP: 2px; FONT-FAMILY: Tahoma, Verdana; HEIGHT: 15px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.submenulimpo:hover {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-SIZE: 8pt; PADDING-BOTTOM: 2px; WIDTH: 150px; COLOR: #000000; PADDING-TOP: 2px; FONT-FAMILY: Tahoma, Verdana; HEIGHT: 15px; BACKGROUND-COLOR: #f7f7f7; TEXT-DECORATION: none
+}

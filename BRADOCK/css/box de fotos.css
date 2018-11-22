@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+<style type="text/css">
+	body {
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+	}
+	
+	#virtualBoxFullPage {
+		font-size:12px;
+	}
+	
+	p#virtualCaptionTitle {
+		color:#3366CC;
+		margin:0px;
+		font-size:16px;
+		padding-left:4px;
+	}
+	
+	p#virtualCaptionContent {
+		margin:0px;
+		padding-left:4px;
+	}
+	
+	div#thumbs img {
+		border:2px solid #FF6600;
+		margin-right:10px;
+		float:left;
+	}
+	
+	div#virtualArrowsBox a {
+		color:#3366CC;
+		float:left;
+		margin-right:10px;
+		padding:6px 6px 6px 0px;
+	}
+	
+	div#virtualArrowsBox a:hover {
+		color:#FF6600;
+	}
+	
+	div#virtualArrowsBox a#virtualCloseButton {
+		color:#FF6600;
+		float:right;
+		padding-right:0px;
+		margin-right:0px;
+	}
+	
+	div#virtualArrowsBoxText {
+		padding:2px 6px 0px 0px;
+		color:#CCCCCC;
+	}
+</style>
+

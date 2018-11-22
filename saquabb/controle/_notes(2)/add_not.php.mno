@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsnoticias" value="name:titulo;datatype:int,name:resumo;datatype:int,name:materia;datatype:int,name:data;datatype:int,name:fonte;datatype:int,name:imagem;datatype:int,name:coluna;datatype:int,name:id;datatype:int" />
+	<infoitem key="UD_coluna" value="name:coluna;datatype:string" />
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int" />
+	<infoitem key="UD_Recordset2" value="name:id;datatype:int,name:coluna;datatype:string" />
+</info>

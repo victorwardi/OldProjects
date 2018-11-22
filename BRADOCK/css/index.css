@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+<style type="text/css">
+	body {
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+	}
+
+	div#myElement {
+		width:432px;
+		height:332px;
+		overflow:hidden;
+	}
+	
+	div#myElement img {
+		background-color:#EEEEEE;
+		border:1px solid #999999;
+		display:block;
+		height:300px;
+		margin:auto;
+		padding:15px;
+		width:400px;
+	}
+	
+	div#thumbs img {
+		border:2px solid #999999;
+		margin-right:10px;
+		float:left;
+	}
+	
+	div#thumbs img.active {
+		border:2px solid #FF6600;
+		margin-right:10px;
+		float:left;
+	}
+</style>
+

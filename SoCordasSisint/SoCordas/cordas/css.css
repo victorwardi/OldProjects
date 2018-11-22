@@ -1,0 +1,55 @@
+#medidas td {
+	color: #192858;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height:15px;
+}
+#medidas input		{COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 11px; TEXT-DECORATION: none; border: 1px solid #2C4E96; BACKGROUND: #FFF}
+#medidas textarea	{COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 11px; TEXT-DECORATION: none; border: 1px solid #2C4E96; BACKGROUND: #FFF}
+#medidas select		{
+	COLOR: #333333;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 9px;
+	TEXT-DECORATION: none;
+	border: 1px solid #2C4E96;
+	BACKGROUND: #FFF
+}
+
+
+
+/* Background dos bgs */
+.bg_01 { background:  url(../nucleo/imgs/bg_01.gif) repeat;}
+.bg_02 { background: #F3F3F3;}
+.bg_03 { background: #002B99; color:#FFFFFF; font-weight:bold; font-size:12px}
+.bg_04 { background: #fff;}
+.bg_05 { background: #F5F5F5;}
+.bg_06 { background:  url(../images/bg_menu.gif) repeat-x; background-color:#E8EFF6;}
+.bg_07 { background-color:#E8EFF6;}
+.bg_tabela01 { background-color:#DDDED9;}
+.bg_tabela02 { background-color:#99CCFF;}
+.bg_tabela03 { background-color:#CCEDFF;}
+.bg_tabela04 { background-color:#6798FF;}
+
+/* Estilo das fontes */
+.txt_destaque { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #686C6D; line-height:12px;}
+.txt_02 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #0073C3;}
+.txt_03 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #fff;}
+.txt_04 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #C11502;}
+.txt_05 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #666;}
+.data { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #C11502;}
+
+
+/* Estilo do formulario */
+.btn_01  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #2D4F95;
+	border: #95BEDC 1px solid;
+
+}
+
+
+.borda	{BORDER:1px solid #DBDBDB;}
+.borda2	{BORDER:1px solid #8D8F8E;}

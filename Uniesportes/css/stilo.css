@@ -1,0 +1,135 @@
+.menu {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #FFFFFF;
+}
+.borda_preto_1px {
+	border: 1px solid #000000;
+}
+.barra_menu {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+	color: #FFFFFF;
+}
+.borda_preto_1px_BAIXO {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: dashed;
+	border-left-style: none;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+
+.titulo_not_destaque {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #000000;
+}
+.leia_mais {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: lighter;
+	color: #B06464;
+}
+.texto_secao {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: lighter;
+	color: #000000;
+}
+.caminho_ {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: lighter;
+	color: #333333;
+}
+.caminho_destaque {
+
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #333333;
+}
+.texto_not {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: lighter;
+	color: #333333;
+}
+.titulo_not {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #000000;
+}
+#not {
+	background-color: #FFFFFF;
+}
+
+.texto_not_negrito {
+
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+#not a {
+	background-color: #FFFFFF;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: lighter;
+	color: #000000;
+}
+#not a:hover {
+	background-color: #FFFFFF;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: lighter;
+	font-variant: normal;
+	color: #003366;
+	text-decoration: underline;
+}
+#mapa {
+
+	background-color: #FFFFFF;
+}
+#mapa a:hover {
+
+	background-color: #FFFFFF;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	font-variant: normal;
+	color: #0033FF;
+	text-decoration: underline;
+}
+#mapa a {
+
+	background-color: #FFFFFF;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #000000;
+}
+.fonte_menos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bolder;
+	color: #000000;
+}
+.fonte_mais {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #000000;
+}

@@ -1,0 +1,31 @@
+body {
+	background-color: #25292C;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.fonte {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: lighter;
+	color: #FFFFFF;
+	line-height: normal;
+}.nome {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #FFFFFF;
+}
+.negrito {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bolder;
+	color: #FFFFFF;
+}
+.nagegation {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bolder;
+	color: #FFFFFF;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+<title>::: XpressBB - Galeria de Fotos ::::</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<% Cod = Request.QueryString("Cod") %>
+
+  
+</frameset>
+<noframes><body>
+</body></noframes>
+</html><frameset rows="94,*" cols="*" framespacing="0" frameborder="NO" border="0" bordercolor="#000000">
+		<frame  src="topo.asp" name="topo" scrolling="NO" noresize>
+		<frameset rows="*" cols="200,*" framespacing="0" frameborder="no" border="0" bordercolor="#666666">
+		<frame src="thumbs.asp?Cod=<% =Cod %>" name="thumbs" frameborder="no" scrolling="no" noresize>
+		<frame name="foto" src="fotoprimeira.asp?CodGaleria=<% =Cod %>" scrolling="auto">
+    </frameset>
+</frameset>

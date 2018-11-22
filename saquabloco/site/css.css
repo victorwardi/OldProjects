@@ -1,0 +1,176 @@
+/* CSS Document */
+
+body {
+	background-image: url(img/bg.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+	margin:0;
+	background-color: #66CBFF;
+}
+#mail {
+	visibility:hidden;
+	display: none;
+}
+.integrante_negrito {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #4A96E4;
+}
+
+a:link {
+	color: #478BE0;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #478BE0;
+}
+a:hover {
+	text-decoration: underline;
+	color: #366CD0;
+}
+a:active {
+	text-decoration: none;
+	color: #478BE0;
+	}
+#texto{
+	margin:0;
+	width:85%;
+	padding-top: 0px;
+	padding-right: 80px;
+	padding-bottom: 0px;
+	padding-left: 60px;
+	text-align: left;
+}
+
+.novidades_titulo{
+	color:#336699;
+	font-size:16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.novidade_texto{
+	color:#666666;
+	font-size:0.8em;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+.depoimento {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #2B87D4;
+	font-weight: normal;
+	text-align: justify;
+
+
+}
+.depoimento_ass {
+	font-size: 11px;
+	color: #333333;
+	font-weight: bolder;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.depoimento_marcacao {
+	margin: 10px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: dotted;
+	border-left-style: none;
+	border-top-color: #E6E6E6;
+	border-right-color: #E6E6E6;
+	border-bottom-color: #E6E6E6;
+	border-left-color: #E6E6E6;
+	padding:5px;
+
+}
+
+.titulos_novidades {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #478BE0;
+	margin: 10px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: dashed;
+	border-left-style: none;
+	border-top-color: #E6E6E6;
+	border-right-color: #E6E6E6;
+	border-bottom-color: #E6E6E6;
+	border-left-color: #E6E6E6;
+	padding:5px;
+	font-weight: bold;
+	background-image: url(img/marcacao.jpg);
+	background-repeat: no-repeat;
+	text-align: left;
+	text-indent: 20px;
+	vertical-align: bottom;
+	background-position: left center;
+}
+
+
+.borda_foto {
+	padding: 3px;
+	border: 1px solid #999999;
+}
+.titulo_integrantes {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #478BE0;
+	margin: 10px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: dashed;
+	border-left-style: none;
+	border-top-color: #E6E6E6;
+	border-right-color: #E6E6E6;
+	border-bottom-color: #E6E6E6;
+	border-left-color: #E6E6E6;
+	padding:5px;
+	font-weight: bold;
+	background-image: url(img/marcacao.jpg);
+	background-repeat: no-repeat;
+	text-align: left;
+	text-indent: 20px;
+	vertical-align: bottom;
+	background-position: left center;
+}
+.integrante_resposta {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+}
+.novidade_texto_espaco {
+	color:#666666;
+	font-size:0.8em;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	text-indent: 30px;
+}
+.linha_trecajada {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: dashed;
+	border-left-style: none;
+	border-top-color: #E6E6E6;
+	border-right-color: #E6E6E6;
+	border-bottom-color: #E6E6E6;
+	border-left-color: #E6E6E6;
+}

@@ -1,0 +1,31 @@
+<!--
+body, table {
+	font-family: verdana;
+	font-size: 8pt;
+}
+.shadow_image {
+	filter: shadow(Color=gray,Direction=115);
+	height:1;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.trans {
+	filter: alpha(opacity=50);
+}
+a.album:link, a.album, a.album:active, a.album:visited {
+	text-decoration: none;
+	color: rgb(83,112,213);
+	background: transparent;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 8pt;
+}
+a.album:hover {
+	text-decoration: none;
+	background: transparent;
+	color: rgb(0,0,0);
+	font-family: verdana;
+	font-size: 8pt;
+}
+//-->

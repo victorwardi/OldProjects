@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>UniEsportes - Esportes Radicais</title>
+<script type="text/javascript">
+  // Altera o tamanho da fonte utilizando-se das classes do CSS.
+  // Cada tamanho deverá ter uma classe no CSS, específico para a fonte.
+  function sizeFont (nivel, elem)
+  {
+      document.getElementById(elem).className = "nivel"+nivel;
+  }
+
+  // Altera o tamanho da fonte até um determinado limite.
+  // Não é necessário CSS para este script funcionar.
+  function sizeFont2 (elem, acao)
+  {
+      // tamanho inicial da fonte (em px)
+      var tamInic = 12;
+      
+      // Tamanho mínimo da fonte (em px)
+      var tamMin = 8;
+      
+      // Tamanho máximo da fonte (em px)
+      var tamMax = 22;
+
+      // Pega o tamanho da fonte. Se não foi setada ainda (primeira vez
+      // que a função é executada) terá como tamanho padrão 'tamInic'.
+      if (document.getElementById(elem).style.fontSize == "") 
+        var tamFonte = tamInic;
+      else
+        var tamFonte = parseInt(document.getElementById(elem).style.fontSize);
+      switch (acao)
+      {
+        // Aumenta o tamanho, enquanto foi menor que 'tamMax'
+        case '+':
+          if (tamFonte < tamMax)
+            document.getElementById(elem).style.fontSize = (tamFonte + 2) + "px";
+        break;
+        
+        // Diminui o tamanbo, enquanto for maior que 'tamMin'
+        case '-':
+          if (tamFonte > tamMin)
+            document.getElementById(elem).style.fontSize = (tamFonte - 2) + "px";
+        break;
+      }
+  }
+  </script>
+<!-- InstanceEndEditable -->
+<link href="css/stilo.css" rel="stylesheet" type="text/css" />
+<!-- InstanceBeginEditable name="head" -->
+<style type="text/css">
+<!--
+.style2 {font-size: 16}
+-->
+</style>
+<!-- InstanceEndEditable -->
+<style type="text/css">
+<!--
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #798FBE;
+}
+a:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+body {
+	background-image: url(imagens/fundo.jpg);
+	background-repeat: repeat-x;
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: lighter;
+	color: #000000;
+}
+-->
+</style>
+</head>
+
+<body>
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="borda_preto_1px">
+  <tr>
+    <th scope="col"><img src="imagens/logo.jpg" width="700" height="150" /></th>
+  </tr>
+  <tr>
+    <th height="25" bgcolor="#000000" class="menu" scope="row"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th width="110" height="34" align="center" valign="middle" scope="col"><a href="index.html">P&aacute;gina inicial</a> </th>
+          <th width="3" align="center" valign="middle" class="barra_menu" scope="col">|</th>
+          <th width="78" align="center" valign="middle" scope="col"><a href="noticias.html">Not&iacute;cias</a></th>
+          <th width="10" align="center" valign="middle" class="barra_menu" scope="col">|</th>
+          <th width="133" align="center" valign="middle" scope="col"><a href="galeria.html">Galeria de Fotos</a> </th>
+          <th width="9" align="center" valign="middle" class="barra_menu" scope="col">|</th>
+          <th width="70" align="center" valign="middle" scope="col"><a href="atletas.html">Atletas</a></th>
+          <th width="10" align="center" valign="middle" class="barra_menu" scope="col">|</th>
+          <th width="67" align="center" valign="middle" scope="col"><a href="videos.html">V&iacute;deos</a></th>
+          <th width="8" align="center" valign="middle" class="barra_menu" scope="col">|</th>
+          <th width="77" align="center" valign="middle" scope="col"><a href="contato.html">Contato</a></th>
+          <th width="13" align="center" valign="middle" scope="col"><span class="barra_menu">|</span></th>
+          <th width="116" align="center" valign="middle" scope="col"> <a href="mapa/index.html">Mapa do S&iacute;tio </a> </th>
+        </tr>
+      </table></th>
+  </tr>
+  <tr>
+    <th height="32" align="center" valign="top" scope="row"><!-- InstanceBeginEditable name="conteudo" -->
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th scope="col"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <th colspan="2" align="center" valign="middle" scope="col"><table width="98%" border="0" cellpadding="0" cellspacing="0" class="borda_preto_1px_BAIXO" id="not">
+                <tr>
+                  <th height="30" align="left" valign="middle" class="caminho_" scope="col"><span class="texto_not"><a href="index.html">P&aacute;gina Inicial</a> &gt;&gt;</span> <a href="noticias.html">Not&iacute;cias</a> &gt;&gt;<span class="caminho_destaque"> SuperSurf 2007 come&ccedil;a em Saquarema</span></th>
+                </tr>
+              </table></th>
+              </tr>
+            
+            <tr>
+              <th width="30%" align="left" valign="top" scope="col"><table  width="98" border="0" cellspacing="4" cellpadding="0">
+                <tr>
+                  <th scope="col"><img src="imagens/fotos/mini/m.jpg" alt="" width="200" height="125" class="borda_preto_1px" /></th>
+                </tr>
+              </table></th>
+              <th width="70%" align="center" valign="top" scope="col"><table width="98%" border="0" cellpadding="0" cellspacing="8" id="mapa">
+                <tr>
+                  <th width="59%" align="left" valign="top" class="texto_not" scope="col"><table width="96%" border="0" align="left" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <th width="75%" align="left" valign="middle" scope="col"><span class="texto_not_negrito">fonte:</span> <span class="texto_not">Ricosurf.com.br</span> </th>
+                      <th width="7%" scope="col">&nbsp;</th>
+                      <th width="18%" scope="col">&nbsp;</th>
+                    </tr>
+                    <tr>
+                      <th align="left" class="texto_not" scope="col">Alterar o tamanho da fonte do texto </th>
+                      <th scope="col"><a href="javascript:sizeFont2('materia','-');void(0);"><img src="imagens/menor.jpg" alt="Diminuir" width="15" height="15" border="0" /></a></th>
+                      <th align="left" scope="col"><a href="javascript:sizeFont2('materia','+');void(0);"><img src="imagens/maior.jpg" alt="Aumentar" width="20" height="15" border="0" /></a></th>
+                    </tr>
+                  </table></th>
+                  <th width="41%" align="right" valign="top" class="texto_not" scope="col"><span class="texto_not_negrito">data:  </span>02/05/2007<strong> </strong></th>
+                </tr>
+                <tr>
+                  <th colspan="2" align="left" valign="top" scope="col"><table id="materia" class="texto_not" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <th align="left" valign="top" scope="col"><p align="justify">O paranaense Peterson Rosa e o cearense Pablo Paulino   foram os primeiros destaques da volta do SuperSurf para Saquarema. Os dois   realizaram as melhores apresenta&ccedil;&otilde;es na quarta-feira de Sol, calor e boas ondas   de 1,5 metro de altura no Maracan&atilde; do surfe brasileiro, como &eacute; conhecida a Praia   de Ita&uacute;na. O anunciado cl&aacute;ssico entre os campe&otilde;es brasileiros Peterson Rosa e   Joca J&uacute;nior acabou n&atilde;o acontecendo, porque o potiguar pegou uma virose e n&atilde;o   p&ocirc;de viajar para disputar o segundo desafio da divis&atilde;o de elite do surfe   nacional. </p>
+                        <p align="justify">O paranaense estreou contra o carioca Jo&atilde;o Gutemberg e arrancou uma   nota 9 para aumentar para 15,50 o recorde de 15,10 pontos de Pablo Paulino na   segunda bateria do primeiro dia da competi&ccedil;&atilde;o que vai at&eacute; domingo em Saquarema,   na Regi&atilde;o dos Lagos do Rio de Janeiro.<br />
+                            <br />
+  &ldquo;Muito bom estar aqui de novo   depois de alguns anos e come&ccedil;ar bem com uma vit&oacute;ria, mas n&atilde;o foi f&aacute;cil. O Jo&atilde;o   (Gutemberg) abriu bem a bateria com um 8,5, mas tive paci&ecirc;ncia para escolher a   onda boa e consegui um 9,0 que acabou garantindo a vit&oacute;ria. S&oacute; espero chegar at&eacute;   s&aacute;bado, quando as ondas v&atilde;o estar bem maiores para um verdadeiro show de surfe   aqui&rdquo;, disse Peterson Rosa, que tamb&eacute;m sobre o cl&aacute;ssico que teria que disputar   contra o potiguar Joca J&uacute;nior. &ldquo;Ia ser muito legal encontrar com o Joca numa   bateria homem-a-homem.Ele j&aacute; foi campe&atilde;o brasileiro (em 1996) como eu (tri em   1994/99/2000), somos da mesma gera&ccedil;&atilde;o e pena que ele ficou doente. Mas, eu   estava preparado para pegar qualquer um na bateria. </p>
+                        <p align="justify">O Jo&atilde;o surfou bem, mas   consegui avan&ccedil;ar e espero conseguir um bom resultado. Tenho que chegar no fim de   semana, pois vai dar altas ondas e quero mostrar o que sei, dar estas batidas   fortes que estou acertando e tentar fazer outra final aqui, mas desta vez vencer   n&eacute;&rdquo;, comentou Peterson, referindo-se a decis&atilde;o da etapa do SuperSurf 2002 em   Saquarema perdida para o paulista Costinha.<br />
+                              </p></th>
+                    </tr>
+                  </table>
+                  </th>
+                </tr>
+              </table>                
+                <p class="texto_not">&nbsp;</p>                </th>
+            </tr>
+          </table></th>
+        </tr>
+      </table>
+    <!-- InstanceEndEditable --></th>
+  </tr>
+  <tr>
+    <th height="30" align="center" valign="middle" bgcolor="#A7B7D1" class="texto_secao" scope="row">Melhor Visualizado 800X600 - &Uacute;tima Atualiza&ccedil;&atilde;o - 22/05/07 <br />
+      Todos os Direitos Reservados - UniEsportes - Esportes Radicais - 2007<br />
+    Desenvolvido por Victor Caetano e F&aacute;bio Arantes </th>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

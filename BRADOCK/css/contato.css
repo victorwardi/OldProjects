@@ -1,0 +1,76 @@
+/* CSS Document */
+/* Contato */
+#conteudo h1 {
+	display:block;
+	width:500px;
+	height:20px;
+}
+#conteudo h2 {
+	display:block;
+	color:#009900;
+	font-weight:bold;
+	padding:5px;
+}
+/* Formulario */
+form {
+	width:350px;
+}
+.textbox {
+	border:solid 1px #999999;
+	background:#F2F2F2;
+	color:#000000;
+	width:400px;
+	padding:2px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: lighter;
+}
+fieldset {
+	border: 1px none #5C594D;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+}
+legend {
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 3px;
+	border: 1px none #F4F4F4;
+	margin-bottom: 5px;
+	background-color: #34393C;
+}
+input, textarea, select { margin-bottom: 10px; }
+label {
+	display: block;
+	width: 300px;
+	float: left;
+	font-weight: bold;
+	margin-right: 5px;
+}
+label.nada {
+	border: 0;
+	margin-right: 1px;
+	display: block;
+	width: 70px;
+}
+#botao {
+	background:#CCCCCC;
+	border:#666666 solid 1px;
+	color:#333333;
+	font-weight:bold;
+	font-size:12px;
+	padding:5px;
+	cursor: hand;
+}
+.textbox2 {
+	border:solid 1px #999999;
+	background:#F2F2F2;
+	color:#000000;
+	width:200px;
+	padding:2px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: lighter;
+	height: auto;
+}

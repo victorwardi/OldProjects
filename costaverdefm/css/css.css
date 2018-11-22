@@ -1,0 +1,414 @@
+/* CSS Document */
+
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	background-image: url(../img/bg.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color: #235D34;
+	}
+a:hover {
+	text-decoration: underline;
+}
+	
+	
+	
+	#menu {
+	text-align: left;
+	list-style-type: none;
+	text-indent: 10px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: dotted;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+.recado_de {
+	font-size: 11px;
+	font-weight: lighter;
+	color: #1C391D;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	margin-left: 33px;
+	margin-bottom: 4px;
+}
+.fonte_11_lighter {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: lighter;
+	color: #333333;
+}
+
+
+.borda_preta_1px {
+	border: 1px solid #333333;
+}
+
+.fonte11px_branca_negrito {
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.top_cantor {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bolder;
+	color: #333333;
+}
+.top_musica {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: lighter;
+	color: #333333;
+}
+
+
+#navigation td {
+	text-align: left;
+	text-indent: 5px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #66CC66;
+	background-color: #FFFFFF;
+	}
+	
+#navigation a {
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+	color: #003366;
+	line-height:16px;
+	letter-spacing:0.1em;
+	text-decoration: none;
+	display:block;
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: 14px 45%;
+	text-align: left;
+	text-indent: 5px;
+	padding-top: 7px;
+	padding-right: 0px;
+	padding-bottom: 7px;
+	padding-left: 2px;
+	}
+	
+#navigation a:hover {
+	color:#FF6600;
+	background-color: #DAE9D2;
+	background-repeat: no-repeat;
+	background-position: 14px 45%;
+	text-align: left;
+	text-indent: 5px;
+	}
+	#links td {
+	text-align: left;
+	text-indent: 1px;
+	}
+	
+#links a {
+	color: #003300;
+	line-height:12px;
+	letter-spacing:0.1em;
+	text-decoration: none;
+	display:block;
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: 14px 45%;
+	text-align: left;
+	text-indent: 2px;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	}
+	
+#links a:hover {
+	color:#333333;
+	background-repeat: no-repeat;
+	background-position: 14px 45%;
+	text-align: left;
+	text-indent: 2px;
+	text-decoration: underline;
+	}
+#destaque {
+	text-align: left;
+	text-indent: 15px;
+	border: 1px solid #006633;
+	color: #FFFFFF;
+}
+#top td {
+	text-align: left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FF9900;
+	}
+.top10 {
+	border: 1px solid #47BB6A;
+}
+.top_num {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bolder;
+	color: #333333;
+}
+.Titulo_Not {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #009900;
+	font-weight: bold;
+}
+.titulo_noticia {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.fonte11px_branca {
+
+	font-size: 11px;
+	font-weight: lighter;
+	color: #FFFFFF;
+}
+#img_not {
+	width: 100%;
+	border: 1px solid #333333;
+	background-color: #9EF1AD;
+	padding: 4px;
+	text-align: center;
+}
+.odd_row {
+	background-color: #FF0000;
+}
+.even_row {
+	background-color: #FFCC00;
+}
+.borda_verde_1px {
+	border: 1px solid #10831E;
+}
+#top_pahe td {
+	
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #66CC66;
+	}
+.recado_para {
+	font-size: 11px;
+	font-weight: lighter;
+	color: #1C391D;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	vertical-align: bottom;
+	margin-bottom: 2px;
+}
+.recado {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: lighter;
+	color: #000000;
+}
+.top_musica_index {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #333333;
+}
+.borda_amarela_1px {
+	border: 1px solid #FFCC00;
+}
+.fonte11px_preta_bold {
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.borda_pont_preta_baixo {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: dotted;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+}
+
+#painel td {
+	text-align: center;
+	text-indent: 5px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #66CC66;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	padding-left: 0px;
+	}
+	
+	
+	.titulo_anuncio {
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.borda_pont_preta_botton {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: dotted;
+	border-left-style: none;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+}
+.titulos {
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+	vertical-align: middle;
+	border-top-width: 3px;
+	border-right-width: 3px;
+	border-bottom-width: 3px;
+	border-left-width: 3px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #37CC4E;
+	border-right-color: #37CC4E;
+	border-bottom-color: #37CC4E;
+	border-left-color: #37CC4E;
+}
+.titulo_top12 {
+
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+	vertical-align: middle;
+	border-top-width: 3px;
+	border-right-width: 3px;
+	border-bottom-width: 3px;
+	border-left-width: 3px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #FF9900;
+	border-right-color: #FF9900;
+	border-bottom-color: #FF9900;
+	border-left-color: #FF9900;
+}
+#link td {
+	text-align: center;
+	text-indent: 2px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	background-color: #006600;
+}
+#link a {
+	color: #333333;
+	line-height:10px;
+	letter-spacing:0.1em;
+	text-decoration: none;
+	display:block;
+	background-color: #D7FFDD;
+	background-repeat: no-repeat;
+	background-position: 14px 45%;
+	text-align: left;
+	text-indent: 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding: 2px;
+	}
+	
+#link a:hover {
+	color:#D7FFDD;
+	background-color: #006600;
+	background-repeat: no-repeat;
+	background-position: 14px 45%;
+	text-align: left;
+	text-indent: 5px;
+	}
+#menu_painel td {
+	text-align: left;
+	text-indent: 5px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	}
+	
+#menu_painel a {
+	color: #FFFFFF;
+	line-height:16px;
+	letter-spacing:0.1em;
+	text-decoration: none;
+	display:block;
+	background-repeat: no-repeat;
+	background-position: 14px 45%;
+	text-align: left;
+	text-indent: 2px;
+	padding-top: 5px;
+	padding-right: 6px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #3A9456;
+	border: 1px none #FFFFFF;
+	}
+	
+#menu_painel a:hover {
+	color:#333333;
+	background-color: #DAE9D2;
+	background-repeat: no-repeat;
+	background-position: 14px 45%;
+	text-align: left;
+	text-indent: 3px;
+	font-weight: bold;
+	}
+.sessao_painel {
+	font-size: 15px;
+	font-weight: bold;
+	color: #D7FFDD;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #003300;
+	padding: 2px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #D7FFDD;
+	border-right-color: #D7FFDD;
+	border-bottom-color: #D7FFDD;
+	border-left-color: #D7FFDD;
+}

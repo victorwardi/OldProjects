@@ -1,0 +1,16 @@
+.titulo_not {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bolder;
+	color: #000000;
+}
+.borda_preta_1px {
+	border: 1px solid #000000;
+}
+.fonte_data_fonte {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-variant: normal;
+	color: #000000;
+}

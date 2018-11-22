@@ -1,0 +1,42 @@
+<form enctype="multipart/form-data" action="_URL_" method="post">
+<input type="hidden" name="MAX_FILE_SIZE" value="30000">
+Send this file: <input name="userfile" type="file">
+<input type="submit" value="Enviar Arquivo">
+</form>
+
+
+
+Os conteúdos de $_FILES do nosso script de exemplo é como segue. Note que isso assume que o nome do upload do arquivo é userfile, como o usado no exemplo acima. 
+
+
+$_FILES['userfile']['name']
+O nome original do arquivo no computador do usuário. 
+
+$_FILES['userfile']['type']
+O tipo mime do arquivo, se o browser deu esta informação. Um exemplo pode ser "image/gif". 
+
+$_FILES['userfile']['size']
+O tamanho, em bytes, do arquivo. 
+
+$_FILES['userfile']['tmp_name']
+O nome temporário do arquivo, como foi guardado no servidor. 
+
+$_FILES['userfile']['error']
+
+
+<?php
+// Nas versões anteriores a 4.1.0, $HTTP_POST_FILES deve ser usado ao invés de $_FILES.
+// Nas versões anteriores a 4.0.3, use copy() e is_uploaded_file() ao invés move_uploaded_file
+
+$uploaddir = '/var/www/uploads/';
+
+print "<pre>";
+if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploaddir . $_FILES['userfile']['name'])) {
+    print "O arquivo é valido e foi carregado com sucesso. Aqui esta alguma informação:\n";
+    print_r($_FILES);
+} else {
+    print "Possivel ataque de upload! Aqui esta alguma informação:\n";
+    print_r($_FILES);
+}
+
+?>

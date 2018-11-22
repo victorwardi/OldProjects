@@ -1,0 +1,65 @@
+/*************************************************************************
+Formulário de Contato 2.0
+Autor: Apoena Machado Cunha
+**************************************************************************/
+
+NOTAS DE VERSÂO:
+
+1) Classe paphmail()
+	Adicionada a classe phpmail() que envia emails com autenticação smtp, ou seja, 
+	o usuário do script não preisa ter um servidor de email confiurado, basta informar os dados de uma
+	conta válida de smtp.
+	
+2) Criação da Classe Email()
+	Esta classe que extende da classe phpmail, foi criada com a finalidade de facilitar para o usuário,
+	evitando que tenha que informar vários parametros sempre que for enviar um novo email 
+	utilizando a classe phpmail.
+	
+3) Array de Campos Obrigatórios
+	Agora o usuário poderá definir altomaticamente quais são os campos obrigatórios do formulário.
+	Foi criando um array chamado "obrigatorios", Nele deversão ser listados todos os campos requeridos.
+	Veja como fazer consultando o ítem "Instalação".
+	
+4) Envia mensagem em duas versões HTML e TEXTO.
+
+5) Porque na página contato não tem as tags de html como <html>, <title>, <header> e <body> ??
+	Justamente para que você utilize o formulário como um include em sua página.
+	Caso vá colocar o include em uma pasta diferente da que estão as classes do formulário, terá que
+	colocar o caminho correto para os includes.
+
+
+INSTALAÇÂO:
+
+1) Descompacte o arquivo form.zip alguma pasta do seu site.
+2) Verifique se existem os 6 seguintes arquivos:
+	leiame.txt
+	config.php
+	contato.php
+	email.class.php
+	phpmail.class.php
+	class.smtp.php
+	
+3) Config.php
+	Abra o arquivo config.php, e Altere a variavel $mail_destino e $email_nome, coloque seu email e seu nome.
+	
+	Campos Obrigatórios - você poderá especificar quais os campos serão obrigatórios. Basta inseri-los na variável
+	$campos_obrigatorios. Coloque o "name" dos campos separados por vírgula
+	Ex: $campos_obrigatorios = array('Estado','Nome','Email');
+	Atenção, este metodo diferencia maiúsculas de minúsculas,
+	entao se no formulário está name="Nome", você deverá usar 'Nome' no array também.
+	
+4) Usando Autenticação SMTP
+	Para enviar emails em ter um servidor configurado você terá que informar os dados para autenticação e
+	informar a classe Email que voc~e quer usar esta autenticação.
+		4.1) No arquivo email.class.php e altere os atributos:
+	
+			$this->Host 		= "smtp.seudominio.com.br"; 	# SMTP server
+			$this->SMTPAuth 	= true; 						# SMTP Autenticado
+			$this->Username 	= "usuario_da_conta"; 			# User do SMTP
+			$this->Password 	= "senha_do_usuario"; 			# senha
+			
+		4.2) No arquivo config.php , coloque 1 para a variável "$usar_smtp" Ex: $usar_smtp = 1;
+			caso informe '0' a classe usará o servidor de emails padrão.
+
+
+Duvidas: www.phpbrasil.com/scripts/script.php/id/171

@@ -1,0 +1,6 @@
+﻿<gallery timer="5" order="sequential" fadetime="6" looping="yes" xpos="6" ypos="6">
+	<image path="evento1.jpg" titulo="Evento 1" href="http://www.saquaonline.com.br/album/001" />
+	<image path="evento2.jpg" titulo="Evento 2" href="http://www.saquaonline.com.br/album/002" />
+	<image path="evento3.jpg" titulo="Evento 3" href="http://www.saquaonline.com.br/album/003" />
+	<image path="evento4.jpg" titulo="Evento 4" href="http://www.saquaonline.com.br/album/004" />
+</gallery>

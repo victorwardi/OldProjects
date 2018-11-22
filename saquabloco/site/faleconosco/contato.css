@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Formulario */
+form {
+	width:450px;
+}
+.textbox {
+	border:1px solid #336699;
+	color:#336699;
+	width:400px;
+	padding:4px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: lighter;
+	background-color: #C0DCFA;
+}
+
+.textbox:focus, .textbox:hover {
+	background-color: #2983CF;
+	color: #C0DCFA;
+}
+
+fieldset {
+	padding: 15px;
+	border: none;
+}
+legend {
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 3px;
+	margin-bottom: 5px;
+	background-color: #F8F6F1;
+}
+input, textarea, select { margin-bottom: 10px; }
+label {
+	display: block;
+	width: 150px;
+	float: left;
+	font-weight: bold;
+	margin-right: 5px;
+}
+label.nada {
+	margin-right: 1px;
+	display: block;
+	width: 70px;
+}
+#botao {
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:12px;
+	padding:5px;
+	cursor: hand;
+	background-color: #336699;
+	font-family: Arial, Helvetica, sans-serif;
+	border:none;
+	
+}.botao {
+	color:#000000;
+	font-weight:bold;
+	font-size:12px;
+	padding:5px;
+	cursor: hand;
+	background-color: #FFFFFF;
+}

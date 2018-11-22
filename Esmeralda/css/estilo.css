@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url(../imagens/fundo.jpg);
+	background-color: #093244;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-repeat: repeat-x;
+	color: #666600;
+}
+.titulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #666600;
+	border-top-width: 5px;
+	border-right-width: 5px;
+	border-bottom-width: 5px;
+	border-left-width: 5px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #BCB483;
+	border-right-color: #BCB483;
+	border-bottom-color: #BCB483;
+	text-align: left;
+}
+
+.subTitulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #666600;
+	text-align: left;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #BCB483;
+	border-right-color: #BCB483;
+	border-bottom-color: #BCB483;
+	border-left-color: #BCB483;
+}
+.titulochalets {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #666600;
+	text-align: center;
+}
+
+.txt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #4A4A00;
+}
+
+.txt2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4A4A00;
+}
+
+#divArredondado { padding:10px; margin:5px auto;  }
+#divArredondado, #divArredondado .sb-inner { background:#E5D8B5; }
+
+#divRodape { padding:10px; margin:5px auto;  }
+#divRodape, #divRodape .sb-inner { background:#E5D8B5; }
+.txt14px {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666600;
+	font-weight: bold;
+	list-style-type: none;
+	
+
+}
+
+
+.txt14px a {
+	
+	text-decoration:none;
+	
+
+}
+.txt14px a: hover {
+	
+	text-decoration:underline;
+	
+
+}
+.botao {
+	font-size: 12px;
+	font-weight: bold;
+	color: #ECE9D8;
+	background-color: #666600;
+	border: 1px solid #666600;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+.sucesso {
+	font-size: 14px;
+	color: #FFFFFF;	
+	text-align: center;
+	padding: 5px;
+
+}

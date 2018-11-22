@@ -1,0 +1,75 @@
+body {
+	background-image: url(../Copy of victor/imagens/fundo.jpg);
+}
+a {
+	font-weight: lighter;
+}
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+a:link {
+	color: #333333;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000000;
+	font-weight: lighter;
+}
+a:active {
+	text-decoration: none;
+	color: #333333;
+	font-weight: lighter;
+}
+.titulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: lighter;
+	color: #333333;
+	
+}
+.categoria {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	text-transform: capitalize;
+	color: #333333;
+}
+.titulo_exibir {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #666666;
+}
+.borda {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: dashed;
+	border-left-style: none;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+
+.desc {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: lighter;
+	color: #333333;
+}
+.borda_img {
+	border: 1px solid #333333;
+}
+.titulo2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: lighter;
+	color: #333333;
+	text-transform: lowercase;
+}

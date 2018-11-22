@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Galeria de fotos -  Ricardo</title>
+<link href="css/box de fotos.css" rel="stylesheet" type="text/css" />
+<script src="moo.rd_1.3.1_mootools_1.2.js" type="text/javascript"></script>
+<script type="text/javascript">
+	window.addEvent('domready', function() {
+		var virtual = new Virtual.Box({
+			enable: {
+				arrows: true,
+				closeButton: true
+			},
+			effect: 'open',
+			leftArrowText: 'prev',
+			rightArrowText: 'next',
+			closeButtonText: 'close',
+			captionOpacity: 0.6
+		}).setLight('#000000');
+	});
+</script>
+</head>
+
+<body>
+	<div style="width:600px; margin:auto;">
+
+	<h2><a style="color:#0099FF;" href=""></a> </h2>
+	
+	<div id="thumbs">
+	<a id="ok1" class="virtualbox" href="img/1.jpg" title="Eu :: na praia">
+	<img id="img1" src="img/1_little.jpg" alt="1" />
+	</a>
+	
+	<a id="ok2" class="virtualbox" href="img/2.jpg" title="eu :: por ai">
+	<img id="img2" src="img/2_little.jpg" alt="2" />
+
+	</a>
+	
+	<a id="ok3" class="virtualbox" href="img/3.gif" title="xd :: the great">
+	<img id="img3" src="img/3_little.jpg" alt="3" />
+	</a>
+	
+	<a id="ok4" class="virtualbox" href="img/4.jpg" title="oi :: tao">
+	<img id="img4" src="img/4_little.jpg" alt="4" />
+	</a>
+	</div>
+	
+	</div>
+
+</body>
+</html>

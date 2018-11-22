@@ -1,0 +1,99 @@
+A {
+	COLOR: #b2d545
+}
+.corpadrao {
+	COLOR: #b2d545
+}
+A:hover {
+	COLOR: #7eb218
+}
+#abahome {
+	FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(/img/home/aba.png); WIDTH: 60px
+}
+#abahome A:hover {
+	COLOR: #ffffff
+}
+#barra {
+	BACKGROUND-IMAGE: url(/img/home/barra.png)
+}
+#barraf {
+	BACKGROUND-IMAGE: url(/img/home/barra-fundo.png)
+}
+#imgbuscar {
+	BACKGROUND-IMAGE: url(/img/home/buscar.png)
+}
+#logofundo {
+	BACKGROUND-IMAGE: url(/img/home/logo-fundo.jpg); MARGIN: 0px 20px
+}
+#usuariob {
+	COLOR: #536d01
+}
+#usuariob A {
+	COLOR: #536d01; TEXT-DECORATION: underline
+}
+#usuariob A:hover {
+	COLOR: #658602
+}
+#busca {
+	COLOR: #536d01
+}
+#inputbusca {
+	BORDER-RIGHT: #536d01 1px solid; BORDER-TOP: #536d01 1px solid; BORDER-LEFT: #536d01 1px solid; BORDER-BOTTOM: #536d01 1px solid
+}
+#linha {
+	MARGIN: 5px 0px; BORDER-BOTTOM: #779d02 1px solid
+}
+#barracorpob {
+	COLOR: #658602
+}
+#barracorpob A {
+	BORDER-RIGHT: #779d02 1px solid; PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 0px; COLOR: #658602; PADDING-TOP: 0px
+}
+#barracorpob A:hover {
+	COLOR: #779d02
+}
+#barracorpobf {
+	COLOR: #546f02
+}
+#barracorpobf A {
+	BORDER-RIGHT: #779d02 1px solid; PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 0px; COLOR: #546f02; PADDING-TOP: 0px
+}
+#barracorpobf A:hover {
+	COLOR: #779d02
+}
+#bolinha {
+	BACKGROUND-IMAGE: url(/img/home/bolinha.png)
+}
+#bolinha_noticias {
+	BACKGROUND-IMAGE: url(/img/home/bolinha_noticias.png)
+}
+#linhabig {
+	BORDER-BOTTOM: #b3d549 4px solid
+}
+#lista_jogos {
+	BACKGROUND-IMAGE: url(/img/home/lista_jogos.jpg)
+}
+.flecha_03 {
+	BACKGROUND-IMAGE: url(/img/home/flecha_03.jpg)
+}
+.flecha_03e {
+	BACKGROUND-IMAGE: url(/img/home/flecha_03e.jpg)
+}
+.flecha_06 {
+	BACKGROUND-IMAGE: url(/img/home/flecha_06.jpg)
+}
+.flecha_06e {
+	BACKGROUND-IMAGE: url(/img/home/flecha_06e.jpg)
+}
+.link_pag {
+	COLOR: #ffffff
+}
+.link_pag:active {
+	COLOR: #b2d545
+}
+.link_pag:visited {
+	COLOR: #ffffff
+}
+.link_pag:hover {
+	COLOR: #b2d545
+}

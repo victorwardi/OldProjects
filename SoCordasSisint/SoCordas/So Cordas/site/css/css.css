@@ -1,0 +1,49 @@
+/* CSS Document */
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+body {
+	background-color: #026DB5;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../img/fundo.jpg);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+}
+
+.menu {
+	font-size: 14px;
+	font-weight: bold;
+	color: #026DB5;
+}
+.txt {
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #333333;
+}
+.ropade {
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+.Txt_Titulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	color: #026DB5;
+}
+.Txt_negrito {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #026DB5;
+}

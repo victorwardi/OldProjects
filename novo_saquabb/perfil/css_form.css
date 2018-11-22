@@ -1,0 +1,71 @@
+.corpo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 1px none #000000;
+}
+
+#form {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	background-color: #BAE9D5;
+	border: 1px solid #000000;
+}
+.box{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: lighter;
+	font-variant: normal;
+	color: #006600;
+	background-color: #FFFFFF;
+	border: 1px dotted #006600;
+}.fonte {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bolder;
+	color: #006600;
+}
+.erro {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: italic;
+	font-weight: bolder;
+	color: #FF0000;
+}
+#form2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: italic;
+	font-weight: bold;
+	background-color: #BAE9D5;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	color: #FF0000;
+}
+.inserir {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	font-variant: normal;
+	color: #006600;
+	background-color: #FFFF66;
+	border: 2px dashed #339900;
+	cursor: hand;
+}

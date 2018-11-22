@@ -1,0 +1,99 @@
+/* CSS Document */
+
+#topo {
+	position:relative;
+	width:700px;
+	height:120px;
+	z-index:auto;
+	left: 0px;
+	top: 0px;
+	float: left;
+	clear: left;
+	right: 0px;
+	bottom: 0px;
+	background-image: url(../album/imagens/topo.jpg);
+	background-repeat: no-repeat;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#meio {
+	position:fixed;
+	width:500px;
+	height:500px;
+	z-index:0;
+	left: 0px;
+	top: 0px;
+	background-color: #FFFFFF;
+	vertical-align: middle;
+	border: 1px solid #000000;
+	right: 0px;
+	bottom: 0px;
+	text-align: center;
+}
+#mini {
+	position:fixed;
+	width:200px;
+	height:380px;
+	z-index:1;
+	left: 498px;
+	top: 121px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	background-color: #FFFFFF;
+	visibility: visible;
+	float: right;
+	text-align: center;
+	vertical-align: middle;
+}
+#thumb {
+	background-color: #FFFFFF;
+	vertical-align: top;
+	text-align: center;
+	white-space: normal;
+	padding: 6px;
+}
+.borda_foto {
+	border: 2px solid #000000;
+}#meio2 {
+	position:fixed;
+	width:auto;
+	height:auto;
+	z-index:0;
+	left: 0px;
+	top: 0px;
+	vertical-align: middle;
+	right: 0px;
+	bottom: 0px;
+	text-align: center;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding-top: 10px;
+}

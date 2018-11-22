@@ -1,0 +1,24 @@
+
+<tickers>
+<ticker>
+<titulo>Teste</titulo>
+<coluna></coluna>
+<data>01/01/2009</data>
+<imagem>fotos/800.jpg</imagem>
+<link>noticia.php?id=90</link>
+</ticker>
+<ticker>
+<titulo>Babado Novo M?sica Nova na R?dio</titulo>
+<coluna></coluna>
+<data>22/03/07</data>
+<imagem>fotos/foto1.jpg</imagem>
+<link>noticia.php?id=88</link>
+</ticker>
+<ticker>
+<titulo>Jammil e Uma Noites - Mega Show</titulo>
+<coluna></coluna>
+<data>06/03/07</data>
+<imagem>fotos/foto2.jpg</imagem>
+<link>noticia.php?id=87</link>
+</ticker>
+</tickers>

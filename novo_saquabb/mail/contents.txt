@@ -1,0 +1,30 @@
+						**********************************
+						*   |                            *
+						* __|  __        ___  __         *
+						*|  |  __| |  | |    |  | \\//   *
+						*|__| |__| |__| |__  |__| //\\   *
+						*        __   | |                *
+						*          |__| |                *
+						**********************************
+						Dayfox Open Source PHPware
+						http://www.dayfoxdesigns.co.nr
+						You are free to edit and redistribute this script
+
+
+							# Mailist 0.9 #
+
+These are the files included with Mailist 0.9
+This file should come in the format of a ".zip" file with the name mailist09.zip
+
+#Home Directory
+   ¬ ajaxServer.php
+   ¬ index.php
+   ¬ changelog.txt
+   ¬ mailist.txt
+   ¬ contents.txt
+   ¬ version.txt
+   # inc
+      ¬ storeAddress.php
+   # js
+	¬ mailingList.js
+	¬ prototype.js

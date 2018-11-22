@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<tickers>
+<ticker>
+<titulo>Uma vista</titulo>
+<area>Camping</area>
+<texto>Table Mountain and Cape Town</texto>
+<foto>foto1.jpg</foto>
+<link>http://www.resds.com.br</link>
+</ticker>
+<ticker>
+<titulo>Com grande angular</titulo>
+<area>Cidade</area>
+<texto>View of Ibiza Town</texto>
+<foto>foto3.jpg</foto>
+<link>http://www.saquasurf.com.br</link>
+</ticker>
+<ticker>
+<titulo>Manobra Radical</titulo>
+<area>Esportes</area>
+<texto>Inline Skater on Vertical Rise of Ramp</texto>
+<foto>foto2.jpg</foto>
+<link>http://www.saquabb.com.br</link>
+</ticker>
+</tickers>

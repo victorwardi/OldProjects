@@ -1,0 +1,262 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head><title>Lightbox JS v2.0</title>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="content-language" content="en">
+
+	<meta name="description" content="Lightbox JS v2.0 is a simple, unobtrusive script used to overlay images on the current page. It's a snap to setup and works on all modern browsers." lang="en">
+	<meta name="keywords" content="lightbox, lightbox2, lightbox v2.0, lightbox js, lokesh, dhakar">
+	
+	<link rel="shortcut icon" type="image/ico" href="http://www.huddletogether.com/images/favicon.gif">	
+
+	<link href="css/screen.css" 		type="text/css" rel="stylesheet" media="screen">
+	<link href="../css/lightboxEx.css" 	type="text/css" rel="stylesheet" media="screen">
+	
+	<script src="../js/prototype.js" 	type="text/javascript"></script>
+	<script src="../js/scriptaculous.js" 	type="text/javascript"></script>
+	<script src="../js/effects.js"		type="text/javascript"></script>
+	<script src="../js/Sound.js" 		type="text/javascript"></script>
+	<script src="../js/lightboxEx.js" 	type="text/javascript"></script>
+
+</head>
+
+<body>
+
+<div id="topborder"></div>
+
+<div id="sidebar">
+	<h1><a href="http://alexphotostudio.blogspot.com">LightboxEx JS <em>v2.02</em></a></h1>
+	<p><a href="http://alexphotostudio.smugmug.com/">by Oleksandr Havrylyuk</a><br>
+		<i>based on <a href="http://www.huddletogether.com/projects/lightbox2/">Lightbox 2.02 by Lokesh Dhakar</i></a></p>
+	
+	<ul id="nav">
+		<li><a href="#overview">Overview</a></li>
+		<li><a href="#example">Example</a></li>
+		<li><a href="#how">How to Use</a></li>
+		<li><a href="#download">Download</a></li>
+		<li><a href="#support">Support</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
+	<!--	<div>
+	<a href="http://digg.com/submit?phase=2&amp;url=http://www.huddletogether.com/projects/lightbox2/"><img src="/images/digg.gif" width="16" height="16" alt="Digg icon" /></a>
+	<a href="http://del.icio.us/post?url=http://www.huddletogether.com/projects/lightbox2/&amp;title=Lightbox%20JS%20v2.0"><img src="/images/delicious.gif" width="16" height="16" alt="Delicious icon" /></a>
+	</div>-->
+</div>
+
+<div id="content">
+
+<a name="overview"></a>
+<div class="section first">
+	<h2>Overview</h2>
+	<p class="lead">LightboxEx JS is a <em>simple, unobtrusive</em> script used to overlay images on the current page, display sets of images and create slideshows using your favorite tunes.  It's a <em>snap to setup</em> and works on <em>all modern browsers</em>.</p>
+	<h3>What's New in this Version</h3>
+	<ul>
+		<li><strong>Image slideshows:</strong> group related images and play them with background music</li>
+		<li><strong>Customize slideshow with parameters:</strong> width, heigh, slide duration, etc.</li>
+		<li><strong>No waiting for a page to be loaded:</strong> LightboxEx can start showing images while the entire page is still loading.</li>
+		<li><strong>PNG graphics support for IE:</strong> yes!</li>
+	</ul>
+</div><!-- end .section -->
+
+
+<a name="example"></a>	
+<div class="section clearfix">
+
+	<h2>Example</h2>
+
+	<h3>Single Images</h3>
+	<div class="thumbnail">
+		<a href="http://www.huddletogether.com/projects/lightbox2/images/image-1.jpg" rel="lightbox"><img src="images/thumb-1.jpg" alt="" height="40" width="100"></a>
+	</div>
+	<div class="thumbnail">
+		<a href="http://www.huddletogether.com/projects/lightbox2/images/image-2.jpg" rel="lightbox" title="Optional caption."><img src="images/thumb-2.jpg" alt="" height="40" width="100"></a>
+	</div>
+
+	<h3 style="clear: both;">Image Set</h3>
+
+	<div class="thumbnail">
+		<a href="http://www.huddletogether.com/projects/lightbox2/images/image-3.jpg" rel="lightbox[plants]" startslideshow=false slideshowwidth=-1 slideshowheight=-1 title="Mouseover image to move forward."><img src="images/thumb-3.jpg" alt="Plants: image 1 0f 4 thumb" height="40" width="100"></a>
+	</div>
+	<div class="thumbnail">
+		<a href="http://www.huddletogether.com/projects/lightbox2/images/image-4.jpg" rel="lightbox[plants]" startslideshow=false slideshowwidth=-1 slideshowheight=-1 title="Alternatively you can press the N key."><img src="images/thumb-4.jpg" alt="Plants: image 2 0f 4 thumb" height="40" width="100"></a>
+	</div>
+	<div class="thumbnail">
+		<a href="http://www.huddletogether.com/projects/lightbox2/images/image-5.jpg" rel="lightbox[plants]" startslideshow=false slideshowwidth=-1 slideshowheight=-1 title="The script preloads the next image in the set as you're viewing."><img src="images/thumb-5.jpg" alt="Plants: image 3 0f 4 thumb" height="40" width="100"></a>
+	</div>
+	<div class="thumbnail">
+		<a href="http://www.huddletogether.com/projects/lightbox2/images/image-6.jpg" rel="lightbox[plants]" startslideshow=false slideshowwidth=-1 slideshowheight=-1 title="Press X to close"><img src="images/thumb-6.jpg" alt="Plants: image 4 0f 4 thumb" height="40" width="100"></a>
+	</div>
+	<h3 style="clear: both;">Slideshow</h3>
+	<div class="thumbnail">
+	<a href="http://www.huddletogether.com/projects/lightbox2/images/image-3.jpg" rel="lightbox[plants1]" slideshowwidth=-1 slideshowheight=-1><img src="images/thumb-3.jpg" alt="Plants: image 1 0f 4 thumb" height="40" width="100"></a>
+	</div>
+	<a href="http://www.huddletogether.com/projects/lightbox2/images/image-4.jpg" rel="lightbox[plants1]"></a>
+	<a href="http://www.huddletogether.com/projects/lightbox2/images/image-5.jpg" rel="lightbox[plants1]"></a>
+	<a href="http://www.huddletogether.com/projects/lightbox2/images/image-6.jpg" rel="lightbox[plants1]"></a>
+</div><!-- end .section -->
+
+
+<a name="how"></a>	
+<div class="section">
+	<h2>How to Use:</h2>
+	<h3>Part 1 - Setup</h3>
+	<ol>
+		<li>Lightbox
+v2.0 uses the Prototype Framework and Scriptaculous Effects Library.
+You will need to include these four Javascript files in your header.
+<pre><code>&lt;script type="text/javascript" src="js/prototype.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="js/scriptaculous.js?load=effects"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="js/Sound.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="js/lightboxEx.js"&gt;&lt;/script&gt;
+</code></pre>
+		</li>
+		<li>Include the Lightbox CSS file (or append your active stylesheet with the Lightbox styles).
+<pre><code>&lt;link rel="stylesheet" href="css/lightboxEx.css" type="text/css" media="screen" /&gt;
+</code></pre>
+		</li>
+		<li>Check the CSS and make sure the referenced <code>prev.gif</code> and <code>next.gif</code> files are in the right location. Also, make sure the image files as referenced near the top of the <code>lightboxEx.js</code> file are in the right location. You would need to set <code>homeURL</code> variable pointing to your installation directory.</li>
+	</ol>
+	<h3>Part 2 - Activate</h3>
+	<ol>
+		<li>Add a <code>rel="lightbox"</code> attribute to any link tag to activate the lightbox. For example:
+<pre><code>&lt;a href="images/image-1.jpg" rel="lightbox" title="my caption"&gt;image #1&lt;/a&gt;
+</code></pre>
+		<em>Optional: </em>Use the <code>title</code> attribute if you want to show a caption.		</li>
+		<li>If
+you have a set of related images that you would like to group, follow
+step one but additionally include a group name between square brackets
+in the rel attribute. For example: <pre><code>&lt;a href="images/image-1.jpg" rel="lightbox[roadtrip]"&gt;image #1&lt;/a&gt;
+&lt;a href="images/image-2.jpg" rel="lightbox[roadtrip]"&gt;image #2&lt;/a&gt;
+&lt;a href="images/image-3.jpg" rel="lightbox[roadtrip]"&gt;image #3&lt;/a&gt;
+</code></pre>
+	No limits to the number of image sets per page or how many images are allowed in each set. Go nuts!</li>
+	
+		<li>By default, sets images are displayed in slideshow mode. You can change any default parameters by going to configuration section in <code>lightboxEx.js</code> file. Make shure you set <code>homeURL</code> variable pointing to your installation directory.</li>
+		<li>You can set the following parameters to customize your slideshow by adding them as attributes to the first link of your images from slideshow: 
+		<br><code>startslideshow = true</code> slideshow auto start. Set to <code>false</code> if you want to disable starting slideshow  automaticaly.<br>
+		<code>slideshowwidth = 604</code> set it to -1 to size slideshow window based on each image.<br>
+		<code>slideshowheight = 454</code> set it to -1 to size slideshow window based on each image.<br>
+		<code>navbarWidth = -1</code> set it to -1 to size navigation bar based on width of each image.<br>
+		<code>slideDuration = 4</code> set image swap interval in seconds.<br>
+		<code>loopMusic = true</code> loops music if it is shorter then slideshow.<br>
+	<code>forever = false</code> Set <code>false</code> if want to stop on the last image or Set it to <code>true</code> for Infinite loop feature.<br>
+		<code>music = "music/song.mp3"</code> URL to your misic MP3 file.<br>
+		For example: <br><code>&lt;a href="http://www.huddletogether.com/projects/lightbox2/images/image-3.jpg" rel="lightbox[plants]" slideshowwidth=-1 slideshowheight=-1 music="music/song.mp3" &gt;&lt;/a&gt;</code>
+		</li>
+	</ol>	
+</div>
+<!-- end .section -->
+
+
+
+<a name="download"></a>	
+<div class="section">
+	<h2>Download:</h2>
+	<ul class="download">
+		<li><a href="http://ahavriluk.home.comcast.net/lightboxEx202.zip"><img src="images/download-icon.gif" alt="download LightboxEx JS" height="22" width="22"> <strong>LightboxEx JS <em>v2.02</em></strong></a></li>
+	</ul>
+<!--	
+	<h3>Changelog</h3>
+	<ul>
+		<li><strong>v2.02</strong> - Fixed layout issues caused by multiline captions. Added keyboard navigation.</li>
+		<li><strong>v2.01</strong> - Centering in IE6 (any DOCTYPE) fixed. Smoothed out resize transition.</li>
+	</ul>
+-->	
+</div><!-- end .section -->
+
+
+
+<a name="support"></a>	
+<div class="section">
+	<h2>Support:</h2>
+	<dl>
+		<dt>It doesn't work at all. The image opens up in a new page. What's wrong?</dt>
+		<dd>This is commonly caused by a conflict between JS scripts. Check your body tag and look for an onload attribute. Example:<br>
+			<code>&lt;body onload="MM_preloadImages(‘/images/menu_on.gif’)…;"&gt;</code><br>
+			A quick fix to this problem is to append the <code>initLightbox()</code> to the onload attribute as so:<br>
+			<code>&lt;body onload="MM_preloadImages(‘/images/menu_on.gif’)…;initLightbox()"&gt;</code><br></dd>
+		<!--
+		<dt>It doesn't work if I click an image link before the page has finished loading.</dt>
+		<dd>The script is activated only after the page has finished loading.</dd>
+		-->
+		<dt>Flash objects appear through overlay.</dt>
+		<dd>Refer to <a href="http://www.huddletogether.com/2006/01/10/lightbox-js-update/#comment-924">comment</a> by netasceta.</dd>
+		<dt>Script doesn't work with imagemaps.</dt>
+		<dd>Refer to <a href="http://www.huddletogether.com/2006/01/10/lightbox-js-update/#comment-756">comment</a> by Jason Buechler.</dd>
+		<dt>The shadow overlay doesn't stretch to cover full browser window.</dt>
+		<dd>Remove the default margin and padding from the body tag. Add <code>body{ margin: 0; padding: 0; }</code> to your stylesheet.</dd>
+		<dt>Can I insert links in the caption?</dt>
+		<dd>Yes, but you need to convert quotes and greater and less than symbols into their html entity equivalents. For example:<br>
+		<code>&lt;a
+href="images/image-4.jpg" rel="lightbox" title="&amp;lt;a
+href=&amp;quot;link.html&amp;quot;&amp;gt;my
+link&amp;lt;/a&amp;gt;"&gt;Image&lt;/a&gt;</code></dd>
+		<dt>Can I display flash, video, or other content using the script?</dt>
+		<dd>Not
+out of the box, but if you're feeling brave, open up and modify the
+code to suit your needs. As an alternative, you can give Cody Lindley's
+<a href="http://codylindley.com/Javascript/257/thickbox-one-box-to-rule-them-all">ThickBox</a> script a go. </dd>
+		<dt>Can I use the script in a commercial project?</dt>
+		<dd>Yes. It is licensed under the <a href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 License</a>. 
+		<!--A donation would be nice, hint hint.--></dd>
+	</dl>
+</div>
+
+<a name="contact"></a>	
+<div class="section">
+	<h2>Contact:</h2>
+	<p>For discussing bugs, asking questions, and troubleshooting the script use the <a href="http://www.huddletogether.com/forum/">messageboard</a>. <!--Before starting a new dicussion, please search through the comments on this <a href="http://www.huddletogether.com/2006/03/29/lightbox-v20/#comments">blog entry</a>. If after reviewing the blog entry, your comment/idea/question remains, please post on the <a href="http://www.huddletogether.com/forum/">messageboard</a>, not the blog. -->Thank you very much.</p>
+	
+<p>If you want to send me a note, response time my vary, my email: 
+<!--
+	<script type="text/javascript">
+//<![CDATA[
+function enkoder(){var i,j,x,y,x=
+"x=\"783d223633353634366436383635373536653732326536343265373336663637373236" +
+"64356332393734363233653635783d5c225c5c36372c552a34366336572d783d353734365c" +
+"5c5c5c5c225c5c36343666363736663633373537343635365c223d78643363323036383766" +
+"36313335363436653264356332343663363236643635373436313639366636373663373436" +
+"35373436663361363836353238326336663632336336623635373132303633363834383732" +
+"363036383735363c33366636782e6c65643563326e677468323230373b692b3d3436393232" +
+"3436633639336233353734363033625c5c5c5c5c225c5c663637363b793d2735373436273b" +
+"666f3836353737633666363232653662363537333666363336383435372e73756233363834" +
+"7374722830363837692c322935363436293b7d795c225c5c3b6a3d6576616c283732297b79" +
+"343663362b3d756e353364356573636163323236706528276336663625272b786236722869" +
+"3d32326536303b6973756273747228692c34293b3b693c782e6c656e6774683b692b3d3829" +
+"7b792b3d782e73756273747228692c34293b7d666f72782e636861724174283029293b783d" +
+"782e7375627374722831293b793d27273b666f7228693d30286e696d2e6874614d3d6a2872" +
+"6f667b2939333d2b693b6874676e656c2e783c693b303d6928726f663b27273d793b5c227d" +
+"793d792e737562737472286a293b28693d343b693c782e6c656e6774683b692b3d38297b79" +
+"2b3d782e3b797d7d3b296a287441726168632e783d2b797b293b693d3e6a2d2d3b2939332b" +
+"692c6874676e656c2e78223b793d27273b666f7228693d303b693c782e6c656e6774683b69" +
+"2b3d3930297b666f72286a3d4d6174682e6d696e28782e6c656e6774682c692b3930293b2d" +
+"2d6a3e3d693b297b792b3d782e636861724174286a293b7d7d793b\";y='';for(i=0;i<x." +
+"length;i+=2){y+=unescape('%'+x.substr(i,2));}y";
+while(x=eval(x));}enkoder();
+//]]>
+</script>
+--><a href="mailto:ahavriluk@yahoo.com" title="ahavriluk@yahoo.com">ahavriluk@yahoo.com</a>
+	</p>
+<a name="donate"></a>
+<!--	
+<h3>Donate</h3>	
+<p>If you're feeling generous, consider a donation. Any and all PayPal donations are sincerely appreciated. Thanks.</p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+	<fieldset>
+		<input name="cmd" value="_xclick" type="hidden">
+		<input name="business" value="lokesh2084@gmail.com" type="hidden">
+		<input name="no_note" value="1" type="hidden">
+		<input name="currency_code" value="USD" type="hidden">
+		<input name="tax" value="0" type="hidden">
+		<input name="bn" value="PP-DonationsBF" type="hidden">
+		<input src="images/donate-button.gif" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" type="image">
+	</fieldset>
+</form>
+-->
+</div><!-- end .section -->
+
+</div><!-- end #content -->
+
+<!--<div style="display: none;" id="overlay"></div><div style="display: none;" id="lightbox"><div id="outerImageContainer"><div id="imageContainer"><img id="lightboxImage"><div id="hoverNav"><a href="#" id="prevLink"></a><a href="#" id="nextLink"></a></div><div id="loading"><a href="#" id="loadingLink"><img src="images/loading.gif"></a></div></div></div><div class="clearfix" id="imageDataContainer"><div id="imageData"><div id="imageDetails"><span id="caption"></span><span id="numberDisplay"></span></div><div id="bottomNav"><a href="#" id="bottomNavClose"><img src="images/closelabel.gif"></a></div></div></div></div>-->
+</body></html>

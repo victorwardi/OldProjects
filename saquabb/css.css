@@ -1,0 +1,282 @@
+/* CSS Document */
+
+body {
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	background-position: center top;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+a:link {
+	text-decoration: none;
+	color: #333333;
+}
+a:visited {
+	text-decoration: none;
+	color: #333333;
+}
+.comentario {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bolder;
+	text-transform: none;
+	color: #333333;
+}
+a:hover {
+	text-decoration: none;
+	color: #333333;
+}
+.girls_fundo_tabela {
+	background-image: url(girls/imagens/borda.jpg);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+.girl_fund0_topo {
+	background-image: url(girls/imagens/topo.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+
+a:active {
+	text-decoration: none;
+	color: #333333;
+}
+.borda_topo {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+}
+
+.borda_foto_noticia{
+	border: 1px solid #666666;
+	
+}
+#espaco_celulas {
+	margin: 0px;
+	padding: 5px;
+}
+.borda_tabela {
+
+	border: 1px solid #999999;
+}
+.fonte_not {
+	font-size: 10px;
+	font-style: normal;
+	font-weight: lighter;
+	color: #333333;
+	}
+.borda_titulo_menu {
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-bottom-style: solid;
+	border-top-color: #0099FF;
+	border-right-color: #0099FF;
+	border-bottom-color: #0099FF;
+	border-left-color: #0099FF;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+}
+.borda_titulo_bblagos {
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-bottom-style: solid;
+	border-top-color: #FFCC00;
+	border-right-color: #FFCC00;
+	border-bottom-color: #FFCC00;
+	border-left-color: #FFCC00;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+}
+#menu_pontilhado {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: dashed;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+}
+
+.borda_titulo_girls {
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-bottom-style: solid;
+	border-top-color: #FF6666;
+	border-right-color: #FF6666;
+	border-bottom-color: #FF6666;
+	border-left-color: #FF6666;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+}
+.borda_titulo_variedades {
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-bottom-style: solid;
+	border-top-color: #009933;
+	border-right-color: #009933;
+	border-bottom-color: #009933;
+	border-left-color: #009933;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+}
+
+.tiutlo_not {
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	color: #000000;
+}
+.borda_fundo_noticas {
+	border: 1px solid #999999;
+	background-image: url(imagens/fundo_noticias.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+#borda_pontilhada_categorias {
+	border: 1px dashed #CCCCCC;
+	padding: 2px;
+}
+.categoria_principal {
+	font-size: 10px;
+	line-height: normal;
+	font-variant: normal;
+	color: #333333;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #FF6600;
+	padding-left: 3px;
+	text-align: left;
+	vertical-align: top;
+	font-weight: lighter;
+	white-space: nowrap;
+}
+.borda_atletas {
+	border: 1px solid #999999;
+	background-image: url(imagens/fundo_atl.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.borda_fundo_destaque {
+
+	border: 1px solid #999999;
+	background-image: url(imagens/destaque.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+.borda_fundo_galeria {
+
+	border: 1px solid #999999;
+	background-image: url(images/fundo_galeria.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.borda_fundo_gatinhas {
+
+
+	border: 1px solid #999999;
+	background-image: url(images/fundo_gatinhasjpg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.perfil_borda_foto {
+	border: 2px solid #FFFFFF;
+}
+
+.borda_pontilhada_noticias {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: dashed;
+	border-bottom-style: none;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+	border-right-style: none;
+	border-left-style: none;
+}
+.perfil_nome {
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	text-transform: capitalize;
+	color: #298CAC;
+}
+.arquivo_titulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bolder;
+	color: #E38D44;
+}
+.tabela_galeria_fotos {
+	background-image: url(imagens/fundo_galerias.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	border: 1px solid #999999;
+}
+.tabela_galeria_gatinhas {
+
+	background-image: url(imagens/fundo_galerias_gatinhas.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	border: 1px solid #999999;
+}
+.bb_lagos_fundo_esquerdo {
+	background-image: url(bblagos/imagens/fundo.jpg);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+.bb_lagos_fundo_topo {
+	background-image: url(bblagos/imagens/topo.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.fonte_colunas {
+	color: #000000;
+	font-weight: bold;
+	font-size: 10px;
+}
+.fonte_colunas_mini {
+	color: #000000;
+	font-weight: lighter;
+	font-size: 10px;
+}
+.hand {
+	cursor: hand;
+}

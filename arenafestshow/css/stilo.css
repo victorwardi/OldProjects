@@ -1,0 +1,301 @@
+/* CSS Document */
+
+body {
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-color: #0272BA;
+	background-image: url(../img/fundo.jpg);
+}
+.borda_cinza {
+	border: 1px dotted #FFFF99;
+}
+
+.tabela_conteudo {
+	background-image: url(../img/fundo_tabela2.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+a:link {
+	text-decoration: none;
+	color: #096FB7;
+}
+a:visited {
+	text-decoration: none;
+	color: #096FB7;
+}
+a:hover {
+	text-decoration: none;
+	color: #FFCC00;
+}
+a:active {
+	text-decoration: none;
+}
+
+.txt_novidades_titulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #096FB7;
+}
+.recado {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000033;
+}
+
+
+
+.borda_branca {
+	border: 1px solid #FFCC00;
+}
+#eventos  a{
+	display: block;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #333333;
+	text-align: left;
+	text-indent: 10px;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 28px;
+	padding-left: 0px;
+}
+.galeria_txt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #333333;
+	font-size: 10px;
+}
+
+
+#eventos a:hover{
+	background-color: #076DB7;
+	display: block;
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 28px;
+	padding-left: 0px;
+	
+	
+}
+.borda_solid {
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #F3F8A6;
+	border-right-color: #F3F8A6;
+	border-bottom-color: #F3F8A6;
+	border-left-color: #F3F8A6;
+}
+.titulo_destaque {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+.borda_propaganda {
+
+	border: 1px solid #FCD309;
+}
+.recado_assinatura {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#fotos  a{
+	display: block;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #333333;
+	text-align: left;
+	text-indent: 10px;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+}
+
+#fotos a:hover{
+	background-color: #F3F8A6;
+	display: block;
+	color: #FFCC00;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	
+	
+}.rodape {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #057AC0;
+}
+.txt_novidades_data {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #096FB7;
+}
+.borda_baixo_5px {
+	border-bottom-width: 5px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #FDDF01;
+	border-right-color: #FDDF01;
+	border-bottom-color: #FDDF01;
+	border-left-color: #FDDF01;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+}
+.txt_galeria_descricao {
+
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #096FB7;
+}
+.txt_padrao {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+}
+
+fieldset {
+	border: 1px solid #CCCCCC;
+	padding-top: 15px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+	padding-left: 5px;
+}
+legend {
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 3px;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 5px;
+	background-color: #096FB7;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+.borda_body {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+.rodape_fundo {
+	background-color: #FFFFFF;
+	background-image: url(../img/fundo_rodape.jpg);
+	background-repeat: repeat-x;
+}
+.txt_info {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.tabela_enquete {
+	background-image: url(../img/enquete.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	border: 1px solid #F8C708;
+}
+.borda_4px_azul {
+	border: 4px solid #0272BA;
+}
+
+.borda_solidazul {
+
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #076DB7;
+	border-right-color: #076DB7;
+	border-bottom-color: #076DB7;
+	border-left-color: #076DB7;
+}
+.TITULOS {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #0272BA;
+	text-align: left;
+	text-indent: 10px;
+	vertical-align: middle;
+	margin: 10px;
+	background-image: url(../img/fundo_iTtulo.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 25px;
+}
+.linha_branca {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+.linha_amarela_pontilhada {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: dashed;
+	border-left-style: none;
+	border-top-color: #FFCC00;
+	border-right-color: #FFCC00;
+	border-bottom-color: #FFCC00;
+	border-left-color: #FFCC00;
+}

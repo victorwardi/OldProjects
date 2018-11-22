@@ -1,0 +1,8 @@
+<flash_project name="~capa_grande" version="1">
+    <project_file path="./~capa_grande.fla" filetype="fla" profile="" />
+    <project_file path="./.\mx\transitions\OnEnterFrameBeacon.as" filetype="as" />
+    <project_file path="./.\mx\transitions\BroadcasterMX.as" filetype="as" />
+    <project_file path="./.\mx\transitions\Tween.as" filetype="as" />
+    <project_file path="./.\mx\transitions\easing\Strong.as" filetype="as" />
+    <project_file path="./.\mx\transitions\easing\None.as" filetype="as" />
+</flash_project>

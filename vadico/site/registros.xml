@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tickers>
+<ticker>
+<titulo>Palio 1.8 R</titulo>
+<categoria></categoria>
+<data>Completo - 2009</data>
+<imagem>imagens/temp/carro_destaque.jpg</imagem>
+<link>ver.php</link>
+</ticker>
+<ticker>
+<titulo>Gol Geração 5</titulo>
+<categoria></categoria>
+<data>Ar, direção e travas - 2007</data>
+<imagem>imagens/temp/gol.jpg</imagem>
+<link>ver.php</link>
+</ticker>
+<ticker>
+<titulo>New Beetle</titulo>
+<categoria></categoria>
+<data>Completo - 2009</data>
+<imagem>imagens/temp/fusca.jpg</imagem>
+<link>ver.php</link>>
+</ticker>
+</tickers>

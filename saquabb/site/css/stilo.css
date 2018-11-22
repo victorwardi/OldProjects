@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(../img/fundo.jpg);
+	background-repeat: repeat-x;
+	margin:0;
+
+}
